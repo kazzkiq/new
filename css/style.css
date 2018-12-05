@@ -443,7 +443,7 @@ section#six .signupwrap input[type=submit] {
 
 /* Custom added - Whitepaper section.  Probably will expand to exchanges as well */
 section#seven {
-    background: #f8f8f8;
+    background: #fff;
     text-align: center;
     padding: 30px 0px; }
 section#seven .title {
@@ -464,6 +464,7 @@ section#seven .col-md-3 .imgwrap {
     margin-top: 10px; }
 /*Big button code as seen on the wallet/resources page. Added by Buckkets 12/4/2018 */
 section#seven .bigbutton {
+    box-shadow: 7px 7px 7px #C0C0C0;
     background:#3cb054;
     border-radius: 20px;}
 /* really good template */
@@ -473,14 +474,15 @@ section#seven .bigbutton-exchanges {
     margin-right: 20px;
     margin-bottom: 20px;}
 section#seven .bigbutton-green {
+    box-shadow: 10px 10px 10px #C0C0C0;
     background:#3cb054;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 20px;}
 section#seven .bigbutton-white {
-    border: 1px solid #3cb054;
-    background:#fff;
+    box-shadow: 7px 7px 7px #C0C0C0;
+    background: #fff;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
