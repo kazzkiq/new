@@ -347,26 +347,22 @@
 
                     <div class="col-md-4">
                         <div class="row mb-3 mt-2">
-                            <div class="col-md-12 bigbutton">
-                                    <br><h4 style="color: white;">Windows</h4>
+                            <div class="col-md-12 bigbutton-wallet">
+                                    <br><h4 style="color: #41B54A;">Windows</h4>
                                     <a href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-win-gitian.zip"><button class="shadow"><span>Download</span></button></a><br>
                                     <br>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <div class="col-md-12 bigbutton">
-
-
-                                    <br><h4 style="color: white;">Mac OS X</h4>
+                            <div class="col-md-12 bigbutton-wallet">
+                                    <br><h4 style="color: #41B54A;">Mac OS X</h4>
                                     <a href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-osx-gitian.zip"><button class="shadow"><span>Download</span></button></a><br>
                                     <br>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <div class="col-md-12 bigbutton">
-
-
-                                    <br><h4 style="color: white;">Linux</h4>
+                            <div class="col-md-12 bigbutton-wallet">
+                                    <br><h4 style="color: #41B54A;">Linux</h4>
                                     <a href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-linux-gitian.zip"><button class="shadow"><span>Download</span></button></a><br>
                                     <br>
                             </div>
@@ -408,7 +404,7 @@
                                             </ul><br>
                                             <h4>Daemon</h4>
                                             <ul>
-                                                <li>Create ppcoin.conf in <code class="green">%APPDATA%\PPCoin</code></li>
+                                                <li>Create <code class="green">ppcoin.conf</code> in <code class="green">%APPDATA%\PPCoin</code></li>
                                                 <li>Run <code class="green">daemon\peercoind</code></li>
                                                 <li>Your wallet is located in <code class="green">C:\Users\&lt;username&gt;\AppData</code> (hidden folder).</li>
                                                 <li>Open the folder with <code class="green">Start menu -> Run...</code> (or press <code class="green">Winkey-R</code>), type <code class="green">%APPDATA%\PPCoin</code> into the field, and press Enter.</li>
@@ -638,6 +634,24 @@
                         </div>
                     </div>
                 </div>
+        </div>
+    </div>
+</section>
+
+<!-- Paper Wallet -->
+<section id="seven">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="title">Paper Wallets</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col bigbutton-white">
+                    <br><h4 style="color: #41B54A;">Paper Wallet</h4>
+                    <a href="https://paperwallet.peercoin.net/">
+                    <img class="exchange-icon" src="img/explorers/peercoin_green.png"><br>
+                    <button class="active shadow"><span>More Information</span></button></a><br><br>
+                </div>
             </div>
         </div>
     </div>
@@ -650,54 +664,30 @@
             <div class="col-12">
                 <h1 class="title">Unofficial Wallet Clients</h1><br>
             </div>
+
             <div class="row justify-content-center">
-                <div class="col bigbutton-white">
-                    <br><h4 style="color: #41B54A;">Coinomi</h4>
-                    <a href="https://www.coinomi.com/">
-                    <img class="exchange-icon" src="img/wallets/coinomi.png"><br>
-                    <button class="active shadow"><span>More Information</span></button></a><br><br>
-                </div>
-
-                <div class="col bigbutton-white">
-                    <br><h4 style="color: #41B54A;">Coinspot</h4>
-                    <a href="https://www.coinspot.com.au/">
-                    <img class="exchange-icon" src="img/wallets/coinspot.png"><br>
-                    <button class="active shadow"><span>More Information</span></button></a><br><br>
-                </div>
-
-                <div class="col bigbutton-white">
-                    <br><h4 style="color: #41B54A;">CoinVault</h4>
-                    <a href="https://www.coinvault.io/">
-                    <img class="exchange-icon" src="img/wallets/coinvault.png"><br>
-                    <button class="active shadow"><span>More Information</span></button></a><br><br>
-                </div>
-
-               <div class="col bigbutton-white">
-                    <br><h4 style="color: #41B54A;">Cryptonator</h4>
-                    <a href="https://www.cryptonator.com/">
-                    <img class="exchange-icon" src="img/wallets/cryptonator.png"><br>
-                    <button class="active shadow"><span>More Information</span></button></a><br><br>
-                </div>
-
-                <div class="col bigbutton-white">
-                    <br><h4 style="color: #41B54A;">HolyTransaction</h4>
-                    <a href="https://holytransaction.com/">
-                    <img class="exchange-icon" src="img/wallets/holytransaction.png"><br>
-                    <button class="active shadow"><span>More Information</span></button></a><br><br>
-                </div>
-
                 <div class="col bigbutton-white">
                     <br><h4 style="color: #41B54A;">Ledger</h4>
                     <a href="https://www.ledger.com/">
                     <img class="exchange-icon" src="img/wallets/ledger.png"><br>
                     <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Hardware Wallet</i><br><br>
                 </div>
 
                 <div class="col bigbutton-white">
-                    <br><h4 style="color: #41B54A;">Magnum</h4>
-                    <a href="https://magnumwallet.co">
-                    <img class="exchange-icon" src="img/wallets/magnum.png"><br>
+                    <br><h4 style="color: #41B54A;">Coinomi</h4>
+                    <a href="https://www.coinomi.com/">
+                    <img class="exchange-icon" src="img/wallets/coinomi.png"><br>
                     <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Mobile Wallet</i><br><br>
+                </div>
+
+                <div class="col bigbutton-white">
+                    <br><h4 style="color: #41B54A;">Cryptonator</h4>
+                    <a href="https://www.cryptonator.com/">
+                    <img class="exchange-icon" src="img/wallets/cryptonator.png"><br>
+                    <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Mobile/Web Wallet</i><br><br>
                 </div>
 
                 <div class="col bigbutton-white">
@@ -705,7 +695,42 @@
                     <a href="http://uberpay.io/">
                     <img class="exchange-icon" src="img/wallets/uberpay.png"><br>
                     <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Mobile/Web Wallet</i><br><br>
                 </div>
+
+                <div class="col bigbutton-white">
+                    <br><h4 style="color: #41B54A;">Coinspot</h4>
+                    <a href="https://www.coinspot.com.au/">
+                    <img class="exchange-icon" src="img/wallets/coinspot.png"><br>
+                    <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Web Wallet</i><br><br>
+                </div>
+
+                <div class="col bigbutton-white">
+                    <br><h4 style="color: #41B54A;">CoinVault</h4>
+                    <a href="https://www.coinvault.io/">
+                    <img class="exchange-icon" src="img/wallets/coinvault.png"><br>
+                    <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Web Wallet</i><br><br>
+                </div>
+
+
+                <div class="col bigbutton-white">
+                    <br><h4 style="color: #41B54A;">HolyTransaction</h4>
+                    <a href="https://holytransaction.com/">
+                    <img class="exchange-icon" src="img/wallets/holytransaction.png"><br>
+                    <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Web Wallet</i><br><br>
+                </div>
+
+                <div class="col bigbutton-white">
+                    <br><h4 style="color: #41B54A;">Magnum</h4>
+                    <a href="https://magnumwallet.co">
+                    <img class="exchange-icon" src="img/wallets/magnum.png"><br>
+                    <button class="active shadow"><span>More Information</span></button></a><br><br>
+                    <i style="color: #41B54A">Web Wallet</i><br><br>
+                </div>
+
             </div>
         </div>
     </div>

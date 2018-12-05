@@ -467,6 +467,10 @@ section#seven .bigbutton {
     box-shadow: 7px 7px 7px #C0C0C0;
     background:#3cb054;
     border-radius: 20px;}
+section#seven .bigbutton-wallet {
+    box-shadow: 7px 7px 7px #C0C0C0;
+    background:#fff;
+    border-radius: 20px;}
 /* really good template */
 section#seven .bigbutton-exchanges {
     background:#363636;
@@ -490,6 +494,7 @@ section#seven .bigbutton-white {
 section#seven .exchange-icon{
     max-width: 100px;
     max-height: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;}
 section#seven .row .col-md-4.image-wrapper {
     text-align: center;
