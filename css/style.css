@@ -687,17 +687,17 @@ button.shadow-outline {
     section#first header nav.navbar {
         display: none !important; }
     section#first img.main_logo {
-          margin: 15vh 0px;
-          margin-bottom: 6vh;
-          width: 25vh; }
+        margin: 15vh 0px;
+        margin-bottom: 6vh;
+        width: 25vh; }
     section#first h1.title {
-          font-size: 1.4em;
-          font-weight: 300; }
+        font-size: 1.4em;
+        font-weight: 300; }
     section#first p.desc {
-          font-size: 0.8em;
-          width: 80%;
-          margin: 0 10% 2% 10%;
-          letter-spacing: 1px; }
+        font-size: 0.8em;
+        width: 80%;
+        margin: 0 10% 2% 10%;
+        letter-spacing: 1px; }
     section#first .buttonWrap {
           padding: 5vh 0vh; }
 
