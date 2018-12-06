@@ -1,26 +1,26 @@
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 800) {
         $("nav.stick").addClass("show");
     }
     else {
-    	$("nav.stick").removeClass("show");
+        $("nav.stick").removeClass("show");
     }
-}); 
+});
 
 $("span.menu-trigger").click(function(){
     $("nav.mobile-only").toggleClass("show");
-    $("header nav.mobile-only li.nav-item").removeClass("clicked");    
+    $("header nav.mobile-only li.nav-item").removeClass("clicked");
 });
 
 $("span.menu-close").click(function(){
-    $("nav.mobile-only").removeClass("show");    
+    $("nav.mobile-only").removeClass("show");
 });
 
 $("li#language").click(function(){
     $("section#language").toggleClass("show");
-    $("nav.mobile-only").removeClass("show");    
+    $("nav.mobile-only").removeClass("show");
 });
 
 $("section#language button").click(function(){
@@ -41,5 +41,7 @@ var loader = document.getElementById("loader-wrapper");
 window.addEventListener('load', function(){
     loader.style.display = 'none';
 })
+
+
 
 
