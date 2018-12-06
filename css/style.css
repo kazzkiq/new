@@ -491,12 +491,14 @@ section#seven .bigbutton-green {
     margin-bottom: 20px;
     margin-top: 20px;}
 section#seven .bigbutton-white {
-    box-shadow: 7px 7px 7px #C0C0C0;
+    box-shadow: 1px 2px 7px 0px #C0C0C0;
     background: #fff;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 20px;}
+section#seven .bigbutton-white .h4{
+    color: #41B54A;}
 section#seven .exchange-icon{
     max-width: 100px;
     max-height: 100px;
