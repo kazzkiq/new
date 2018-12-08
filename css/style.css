@@ -19,6 +19,78 @@ body {
     margin-right: 0px;
     margin-left: 0px;}
 
+#fm-medium-embed{
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fm-post-wrapper{
+    box-shadow: 1px 2px 7px 0px #C0C0C0;
+    display: inline-block;
+    border-radius: 20px;
+    width: 330px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    margin: 10px;
+    min-height: 300px;
+}
+
+.fm-post-title{
+    font-size: 20px;
+    font-weight: 350;
+    height: 80px;
+    overflow: auto;
+    padding: 10px 0px 0px 0px;
+    white-space: initial;
+}
+
+.fm-post-title a{
+    color: #41B54A;
+    font-weight: 300
+}
+
+.fm-post-sub-title{
+     font-size: 0.9em;
+    color: #404040;
+}
+
+.fm-post-read-more{
+    color: #41B54A;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+
+.fm-medium-profile{
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+}
+
+.fm-medium-profile a{
+  display: inline-block;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  border: 2px solid #41B54A;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+}
+
+.fm-medium-profile a.hover{
+    color: black;
+}
+
+.fm-medium-profile .button{
+        transition: 0.2s ease-in-out;
+    border-color: #404040;
+    color: #404040;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
 section#language {
     bottom: -400px; }
 
@@ -561,29 +633,7 @@ section#seven .col-md-3 .imgwrap.tradebytrade {
     background: url("../img/exchanges/"); }
 section#seven .col-md-3 .imgwrap.tux {
     background: url("../img/exchanges/tux.jpg"); }
-/*
-    section#seven .col-md-4 h2 {
-      font-weight: 300;
-      padding: 10px 0px 0px 0px;
-      margin: 0; }
-    section#seven .col-md-4 p {
-      font-size: 0.9em;
-      color: #404040; }
-    section#seven .col-md-4 span.time {
-      font-style: italic;
-      font-size: 0.7em;
-      opacity: 0.5; }
-    section#seven .col-md-4 button {
-      transition: 0.2s ease-in-out;
-      border-color: #404040;
-      color: #404040;
-      opacity: 0.5;
-      cursor: pointer; }
-    section#seven .col-md-4 button:hover {
-      border-color: #41B54A;
-      color: #41B54A;
-      opacity: 1; }
-*/
+
 footer{
     background: none; }
 footer .container.footerwrapper {

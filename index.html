@@ -336,7 +336,7 @@
         <h1 class="title">The Pioneer of Proof of Stake</h1><br>
         <p class="desc">The world's first efficient and sustainable public blockchain, serving as a secure base layer for the future blockchain connected world.</p>
         <div class="buttonWrap">
-            <a href="wallet.html"><span><button>Wallet</button></span></a>
+            <a href="#wallet_dropdown" style="padding-top: 100px"><span><button>Wallet</button></span></a>
             <button>Purchase</button>
             <button>Mint</button>
             <button>Mine</button>
@@ -494,7 +494,6 @@
                     <img src="img/dummy.png" alt="">
                 </div>
             </div>
-
         </div>
     </section>
     <section id="four">
@@ -647,6 +646,11 @@
         </div>
     </section>
 
+    <link rel="stylesheet" type="text/css" href="https://hut34.io/scss/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://hut34.io/dist/theme.min.css?v=1" />
+    <link rel="stylesheet" type="text/css" href="https://hut34.io/assets/media-banner.css?v=9" />
+    <link rel="stylesheet" type="text/css" href="https://hut34.io/css/fontawesome-all.min.css" />
+<!-- Removed blog section
     <section id="five">
         <div class="container">
             <div class="row">
@@ -684,6 +688,33 @@
             </div>
         </div>
     </section>
+-->
+<section id="five">
+    <div class="row">
+        <div class="col-12 justify-content-center">
+                    <h1 class="title">Latest Blog</h1>
+                    <p class="desc">Blog description</p>
+                </div>
+        <div class="col-md-12">
+            <div id="fm-medium-embed"></div>
+
+            <script src="https://data.feedmirror.com/embed.js?friday"></script>
+            <script>
+              var fmSettings = {
+                feedURL: 'https://data.feedmirror.com/-LT9rBn07nhypf5995uC.json',
+                integration: 'medium-embed',
+                linkOutText: 'Read more',
+                openNewTab: true,
+                linkToMediumProfileText: 'Peercoin Blog',
+                postsCount: 3,
+                element: 'fm-medium-embed'
+              };
+              feedmirror.initialize(fmSettings);
+            </script>
+        </div>
+    </div>
+</section>
+
 
     <!-- NEWSLETTER SECTION -->
     <section id="six">
