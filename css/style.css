@@ -533,6 +533,13 @@ section#seven .desc {
     width: 60%;
     margin-left: 20%;
     opacity: 0.75; }
+section#seven h4 {
+    color: #3cb054;
+}
+section#seven a {
+    color: #3cb054;
+    text-decoration: none;
+}
 section#seven .col-md-3 {
     margin: 15px 0px; }
 section#seven .col-md-3 .imgwrap {
@@ -545,7 +552,7 @@ section#seven .bigbutton {
     background:#3cb054;
     border-radius: 20px;}
 section#seven .bigbutton-wallet {
-    box-shadow: 7px 7px 7px #C0C0C0;
+    box-shadow: 1px 2px 7px 0px #C0C0C0;
     background:#fff;
     border-radius: 20px;}
 /* really good template */
@@ -565,9 +572,10 @@ section#seven .bigbutton-white {
     box-shadow: 1px 2px 7px 0px #C0C0C0;
     background: #fff;
     border-radius: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 20px;
-    margin-top: 20px;}
+    margin-top: 20px;
+    max-width: 20%}
 section#seven .bigbutton-white .h4{
     color: #41B54A;}
 section#seven i{
@@ -644,17 +652,21 @@ footer .container.footerwrapper {
     padding: 25px;
     background: #ffffff;
     margin-top: -200px; }
+footer .container.footerwrapper a {
+    color: #41B54A;
+}
 footer .container.footerwrapper ul {
     list-style: none;
     padding: 0;
     margin-bottom: 5px; }
 footer .container.footerwrapper ul li.title {
+    color: #41B54A;
     font-size: 1.2em;
     margin-bottom: 12px; }
 footer .container.footerwrapper ul li.list {
     font-size: 0.9em;
-    opacity: 0.5;
-    margin: 3px 0px; }
+    margin: 3px 0px;
+    color: #41B54A; }
 footer .container.footerwrapper ul li.sublist {
     margin: 4px 0px;
     font-size: 0.9em;
