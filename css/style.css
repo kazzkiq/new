@@ -129,7 +129,7 @@ section#first {
     padding-bottom: 60px;
     background: radial-gradient(#4fae31, #3ca652); }
 section#first img.main_logo {
-    margin: 8vh;
+    margin: 6vh;
     width: 15%; }
 section#first h1.title {
     color: #FAFAFA;
@@ -578,7 +578,7 @@ section#seven .bigbutton-white {
     max-width: 20%}
 section#seven .bigbutton-graphics {
     box-shadow: 1px 2px 7px 0px #C0C0C0;
-    background: #dcdcdc;
+    background: #616161;
     border-radius: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
