@@ -576,6 +576,14 @@ section#seven .bigbutton-white {
     margin-bottom: 20px;
     margin-top: 20px;
     max-width: 20%}
+section#seven .bigbutton-graphics {
+    box-shadow: 1px 2px 7px 0px #C0C0C0;
+    background: #dcdcdc;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 20%}
 section#seven .bigbutton-white .h4{
     color: #41B54A;}
 section#seven i{
@@ -586,10 +594,10 @@ section#seven .exchange-icon{
     margin-top: 20px;
     margin-bottom: 20px;}
 section#seven .graphics-icon{
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;}
+    max-width: 160px;
+    max-height: 160px;
+    margin-top: 10px;
+    padding: 10px 10px;}
 section#seven .row .col-md-4.image-wrapper {
     text-align: center;
     background: url("../img/whitepaper.png");}
