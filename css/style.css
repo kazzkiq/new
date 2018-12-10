@@ -4,7 +4,7 @@
 
 body {
     font-family: Roboto;
-    background: #f1f1f1; }
+    background: #fff; }
 
 .center-content {
     text-align: center; }
@@ -46,7 +46,7 @@ body {
 }
 
 .fm-post-title a{
-    color: #41B54A;
+    color: #3cb054;
     font-weight: 300
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .fm-post-read-more{
-    color: #41B54A;
+    color: #3cb054;
     cursor: pointer;
     border-radius: 100px;
 }
@@ -73,7 +73,7 @@ body {
   background: #fff;
   padding: 15px;
   border-radius: 3px;
-  border: 2px solid #41B54A;
+  border: 2px solid #3cb054;
   box-shadow: 0 3px 15px rgba(0,0,0,0.15);
 }
 
@@ -104,6 +104,7 @@ body {
 th{
     text-align: left;
     font-weight: normal;
+    font-size: 13px;
 }
 
 .active, .collapsible:hover {
@@ -137,7 +138,7 @@ section#language .lang {
     cursor: pointer; }
 section#language .lang button {
     margin: 30px 0px;
-    background: #41B54A;
+    background: #3cb054;
     color: #ffffff;
     cursor: pointer; }
 section#language .col-4 {
@@ -154,15 +155,15 @@ section#language .col-4 {
 
 section#first {
     padding-bottom: 60px;
-    background: radial-gradient(#4fae31, #3ca652); }
+    background: #3cb054; }
 section#first img.main_logo {
-    margin: 6vh;
+    margin: 30px;
     width: 15%; }
 section#first h1.title {
-    color: #FAFAFA;
+    color: #fff;
     font-weight: 300; }
 section#first p.desc {
-    color: #FAFAFA;
+    color: #fff;
     font-weight: 300;
     font-size: 1.2em;
     width: 50%;
@@ -211,7 +212,7 @@ section#first header span.menu-trigger {
     right: 0px;
     top: 0px;
     z-index: 1000;
-    background: #41B54A;
+    background: #3cb054;
     padding: 10px; }
 section#first header span.menu-trigger img {
     width: 35px; }
@@ -245,10 +246,10 @@ section#first header ul li.nav-item ul li.article-heading {
     padding: 15px;
     color: #363636; }
 section#first header ul li.nav-item a {
-    color: #FAFAFA; }
+    color: #fff; }
 section#first header ul li.nav-item a span {
-    background: #FAFAFA;
-    color: #41B54A;
+    background: #fff;
+    color: #3cb054;
     padding: 6px;
     border-radius: 100px; }
 section#first header ul li#learn .row {
@@ -272,7 +273,7 @@ section#first header ul li#learn ul.submenuitem div.article-heading h4 {
 section#first header ul li#learn ul.submenuitem div.article-heading p {
     margin-bottom: 0; }
 section#first header ul li#learn ul.submenuitem .row a {
-    color: #41B54A;
+    color: #3cb054;
     padding: 15px 0px; }
 section#first header ul li#learn ul.submenuitem .row a:hover {
     filter: grayscale(100);
@@ -316,7 +317,7 @@ section#first header ul li#resources ul li.contactUs,
 section#first header ul li#projects ul li.contactUs,
 section#first header ul li#community ul li.contactUs {
     color: #ffffff;
-    background: #41B54A; }
+    background: #3cb054; }
 section#first header ul li#get-started ul li.contactUs img,
 section#first header ul li#resources ul li.contactUs img,
 section#first header ul li#projects ul li.contactUs img,
@@ -333,7 +334,7 @@ section#first header ul li#projects ul li:hover,
 section#first header ul li#community ul li:hover {
     padding-left: 20px;
     background: #f8f8f8;
-    color: #41B54A; }
+    color: #3cb054; }
 section#first header ul li:hover ul {
     opacity: 1;
     top: 70px;
@@ -377,13 +378,13 @@ section#two .row img.laptop-mobile {
     display: none; }
 section#two .row .col-md-6 h1.title {
     font-weight: 300;
-    color: #41B54A; }
+    color: #3cb054; }
 section#two .row .col-md-6 button {
     margin-top: 25px; }
 
 section#three {
     background: #fff;
-    padding: 90px 0px; }
+    padding: 20px 0px; }
 section#three .row {
     margin: 25px 0px;
     margin-bottom: 30px; }
@@ -395,12 +396,12 @@ section#three .row .col-md-6.image-wrapper img {
     width: 80%; }
 section#three .row h1.title {
     font-weight: 300;
-    color: #41B54A; }
+    color: #3cb054; }
 section#three .row button {
     background: #f8f8f8;
     margin-top: 25px; }
 section#three .row button.green {
-    background: #41b54A;
+    background: #3cb054;
     margin-top: 25px;
     margin-left: auto;}
 section#three .row button.reverse {
@@ -410,11 +411,13 @@ section#three .row button.reverse {
     margin-left: auto;}
 section#three .row:nth-child(even) .col-md-6.content-wrapper {
     order: 2; }
+section#three a{
+    color: #3cb054;}
 
 section#four {
-    padding: 60px 0px;
-    background: #41B54A;
-    color: #FAFAFA; }
+    padding: 20px 0px;
+    background: #3cb054;
+    color: #fff; }
 section#four h1.title {
     font-weight: 300;
     font-size: 2.2em;
@@ -438,9 +441,9 @@ section#four .card .card-header {
     border: none; }
 
 section#walletguide {
-    padding: 60px 0px;
+    padding: 20px 0px;
     background: #363636;
-    color: #FAFAFA; }
+    color: #fff; }
 section#walletguide code.green {
     color: #3cb054; }
 section#walletguide h1.title {
@@ -467,10 +470,12 @@ section#walletguide .card .card-header {
 
 section#five {
     text-align: center;
-    padding: 60px 0px; }
+    padding: 20px 0px;
+    background: #fff;
+}
 section#five .title {
     font-weight: 300;
-    color: #41B54A; }
+    color: #3cb054; }
 section#five .desc {
     width: 60%;
     margin-left: 20%;
@@ -511,20 +516,20 @@ section#five .col-md-4 button {
     opacity: 0.5;
     cursor: pointer; }
 section#five .col-md-4 button:hover {
-    border-color: #41B54A;
-    color: #41B54A;
+    border-color: #3cb054;
+    color: #3cb054;
     opacity: 1; }
 
 section#six {
     background: #363636;
     text-align: center;
-    padding: 60px 0px;
+    padding: 20px 0px;
     padding-bottom: 200px; }
 section#six h1.title {
-    color: #41B54A;
+    color: #3cb054;
     font-weight: 300; }
 section#six p.desc {
-    color: #FAFAFA;
+    color: #fff;
     width: 60%;
     margin: 0px 20%; }
 section#six .signupwrap {
@@ -542,17 +547,17 @@ section#six .signupwrap input[type=submit] {
     width: 30%;
     height: 50px;
     border: none;
-    background: #41B54A;
-    color: #FAFAFA; }
+    background: #3cb054;
+    color: #fff; }
 
 /* Custom added - Whitepaper section.  Probably will expand to exchanges as well */
 section#seven {
     background: #fff;
     text-align: center;
-    padding: 30px 0px; }
+    padding: 20px 0px; }
 section#seven .title {
     font-weight: 300;
-    color: #41B54A; }
+    color: #3cb054; }
 section#seven .title-alt {
     font-weight: 300;
     color: #000; }}
@@ -589,6 +594,7 @@ section#seven .bigbutton-wallet {
 section#seven .bigbutton-exchanges {
     background:#363636;
     border-radius: 20px;
+    text-align: center;
     margin-right: 20px;
     margin-bottom: 20px;}
 section#seven .bigbutton-green {
@@ -615,9 +621,14 @@ section#seven .bigbutton-graphics {
     margin-top: 20px;
     max-width: 20%}
 section#seven .bigbutton-white .h4{
-    color: #41B54A;}
+    color: #3cb054;}
 section#seven i{
-    color: #41B54A;}
+    color: #3cb054;}
+section#seven .wallet-icon{
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 3px;
+    margin-bottom: 6px;}
 section#seven .exchange-icon{
     max-width: 100px;
     max-height: 100px;
@@ -691,20 +702,20 @@ footer .container.footerwrapper {
     background: #ffffff;
     margin-top: -200px; }
 footer .container.footerwrapper a {
-    color: #41B54A;
+    color: #3cb054;
 }
 footer .container.footerwrapper ul {
     list-style: none;
     padding: 0;
     margin-bottom: 5px; }
 footer .container.footerwrapper ul li.title {
-    color: #41B54A;
+    color: #3cb054;
     font-size: 1.2em;
     margin-bottom: 12px; }
 footer .container.footerwrapper ul li.list {
     font-size: 0.9em;
     margin: 3px 0px;
-    color: #41B54A; }
+    color: #3cb054; }
 footer .container.footerwrapper ul li.sublist {
     margin: 4px 0px;
     font-size: 0.9em;
@@ -720,30 +731,30 @@ footer .container.postfooter .row .col-12 span.right {
     float: right; }
 
 button {
-    background: #FAFAFA;
-    border: 2px solid #FAFAFA;
+    background: #fff;
+    border: 2px solid #fff;
     border-radius: 100px;
     margin-bottom: 10px;
     margin-right: 3px;
-    color: #41B54A;
+    color: #3cb054;
     width: 200px;
     height: 50px; }
 
 button.reverse {
     background: none;
-    color: #FAFAFA; }
+    color: #fff; }
 
 button.green {
-    background: #41B54A;
-    color: #FAFAFA; }
+    background: #3cb054;
+    color: #fff; }
 
 button.shadow {
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
-    color: #41B54A; }
+    color: #3cb054; }
 button.shadow-outline {
-    border: 1px solid #41B54A;
+    border: 1px solid #3cb054;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
-    color: #41B54A; }
+    color: #3cb054; }
 
 #accordion {
     position: relative;
@@ -757,10 +768,10 @@ button.shadow-outline {
     background: #caffce;
     top: 15px;
     border-radius: 100px;
-    border: 4px solid #41B54A;
+    border: 4px solid #3cb054;
     z-index: 99; }
 #accordion a.intext{
-    color: #000;
+    color: #363636;
     text-decoration: underline;
 }
 
@@ -771,8 +782,10 @@ button.shadow-outline {
     left: 10px;
     width: 2px;
     content: "";
-    background: #FAFAFA;
+    background: #fff;
     opacity: 0.5; }
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -799,8 +812,7 @@ button.shadow-outline {
     section#first header nav.navbar {
         display: none !important; }
     section#first img.main_logo {
-        margin: 15vh 0px;
-        margin-bottom: 6vh;
+        margin: 20px;
         width: 25vh; }
     section#first h1.title {
         font-size: 1.4em;
@@ -820,7 +832,7 @@ button {
 
 button.reverse {
     background: none;
-    color: #FAFAFA; }
+    color: #fff; }
 
 section#two {
     padding: 5vh 0px;
@@ -876,11 +888,11 @@ footer .container.postfooter .row .col-12 span.right {
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
 section#first img.main_logo {
-    margin: 12vh; } }
+    margin: 20px; } }
 #loader-wrapper {
     width: 100vw;
     height: 100vh;
-    background: #46AA3F;
+    background: #3cb054;
     position: absolute;
     z-index: 999999;
     top: 0; }

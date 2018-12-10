@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peercoin</title>
-    <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon16.png" sizes="16x16" />
+    <title>Wallet - Peercoin</title>
+<link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon48.png" sizes="48x48" />
     <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon64.png" sizes="64x64" />
@@ -19,7 +19,6 @@
     <div id="loader-wrapper">
         <div id="loader"></div>
     </div>
-
     <section id="language">
         <div class="container">
             <div class="row">
@@ -58,6 +57,15 @@
                 <span class="menu-close" ><img src="img/back.png" alt=""></span>
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Get Started</a>
+                        <ul class="submenuitem">
+                            <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span><a href="#wallets_dropdown"><font color="black">Downloading Wallet</font></a></li>
+                            <li><span class="icon"><img src="img/icons/buy.png" alt=""></span><a href="#purchasing_dropdown"><font color="black">Purchasing Peercoin</font></a></li>
+                            <li><span class="icon"><img src="img/icons/minting.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
+                            <li><span class="icon"><img src="img/icons/mine.png" alt=""></span><a href="#mining_dropdown"><font color="black">Mining Peercoin</font></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Learn</a>
                         <ul class="submenuitem">
                             <li>Section Title</li>
@@ -78,15 +86,6 @@
                                 <li class="col-6"><a href="#">Subsection</a></li>
                                 <li class="col-6"><a href="#">Subsection</a></li>
                             </div>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Get Started</a>
-                        <ul class="submenuitem">
-                            <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span><a href="#wallets_dropdown"><font color="black">Downloading Wallet</font></a></li>
-                            <li><span class="icon"><img src="img/icons/buy.png" alt=""></span><a href="#purchasing_dropdown"><font color="black">Purchasing Peercoin</font></a></li>
-                            <li><span class="icon"><img src="img/icons/mint.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
-                            <li><span class="icon"><img src="img/icons/mine.png" alt=""></span><a href="#mining_dropdown"><font color="black">Mining Peercoin</font></a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -113,7 +112,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Community</a>
+                        <a class="nav-link" href="resources.html#communities">Community</a>
                         <ul class="submenuitem">
                             <li><span class="icon"><img src="img/icons/forum.png" alt=""></span><a href="https://talk.peercoin.net/"><font color="black">Forum</font></a></li>
                             <li><span class="icon"><img src="img/icons/twitter.png" alt=""></span><a href="https://twitter.com/PeercoinPPC"><font color="black">Twitter</font></a></li>
@@ -134,20 +133,6 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="collaspe navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav justify-content-center">
-                        <!-- Get Started -->
-                        <li id="get-started" class="nav-item">
-                            <a class="nav-link" href="index.html">Get Started</a>
-                            <ul class="submenuitem">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span><a href="#wallets_dropdown"><font color="black">Downloading Wallet</font></a></li>
-                                        <li><span class="icon"><img src="img/icons/buy.png" alt=""></span><a href="#purchasing_dropdown"><font color="black">Purchasing Peercoin</font></a></li>
-                                        <li><span class="icon"><img src="img/icons/mint.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
-                                        <li><span class="icon"><img src="img/icons/mine.png" alt=""></span><a href="#mining_dropdown"><font color="black">Mining Peercoin</font></a></li>
-                                    </div>
-                                </div>
-                            </ul>
-                        </li>
                         <!-- Learn -->
                         <li id="learn" class="nav-item">
                             <a class="nav-link" href="#">Learn</a>
@@ -184,6 +169,20 @@
                                 </div>
                             </ul>
                         </li>
+                        <!-- Get Started -->
+                        <li id="get-started" class="nav-item">
+                            <a class="nav-link" href="index.html">Get Started</a>
+                            <ul class="submenuitem">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span><a href="index.html#wallet_dropdown"><font color="black">Downloading Wallet</font></a></li>
+                                        <li><span class="icon"><img src="img/icons/buy.png" alt=""></span><a href="#purchasing_dropdown"><font color="black">Purchasing Peercoin</font></a></li>
+                                        <li><span class="icon"><img src="img/icons/minting.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
+                                        <li><span class="icon"><img src="img/icons/mine.png" alt=""></span><a href="#mining_dropdown"><font color="black">Mining Peercoin</font></a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
                         <!-- Resources -->
                         <li id="resources" class="nav-item">
                             <a class="nav-link" href="resources.html">Resources</a>
@@ -212,7 +211,7 @@
                         </li>
                          <!-- Community -->
                         <li id="community" class="nav-item">
-                            <a class="nav-link" href="#">Community</a>
+                            <a class="nav-link" href="resources.html#communities">Community</a>
                             <ul class="submenuitem">
                                 <li><span class="icon"><img src="img/icons/forum.png" alt=""></span><a href="https://talk.peercoin.net/"><font color="black">Forum</font></a></li>
                                 <li><span class="icon"><img src="img/icons/twitter.png" alt=""></span><a href="https://twitter.com/PeercoinPPC"><font color="black">Twitter</font></a></li>
@@ -239,142 +238,200 @@
                     </div>
                     <div class="col-sm-9">
                         <ul>
-                                <li id="learn" class="nav-item">
-                                        <a class="nav-link" href="#">Learn</a>
-                                        <ul class="submenuitem">
-                                            <div class="article-heading row">
-                                                <div class="icon col-2"><img src="img/menu_icons/1.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h4>Article 1</h4>
-                                                    <p>Lorem ipsum dolor sit sicing elit.</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                            </div>
-                                            <div class="article-heading row">
-                                                <div class="icon col-2"><img src="img/menu_icons/1.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h4>Article 2</h4>
-                                                    <p>Lorem ipsum dolor sit sicing elit.</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                                <li class="col-4"><a href="#">Subsection</a></li>
-                                            </div>
-                                        </ul>
-                                    </li>
-                                    <li id="get-started" class="nav-item">
-                                        <a class="nav-link" href="index.html">Get Started</a>
-                                        <ul class="submenuitem">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span>Downloading Wallet</li>
-                                                    <li><span class="icon"><img src="img/icons/buy.png" alt=""></span>Purchasing Peercoin</li>
-                                                    <li><span class="icon"><img src="img/icons/mint.png" alt=""></span>Minting Peercoin</li>
-                                                    <li><span class="icon"><img src="img/icons/mine.png" alt=""></span>Mining Peercoin</li>
-                                                </div>
-                                            </div>
+                            <li id="learn" class="nav-item">
+                                <a class="nav-link" href="#">Learn</a>
+                                <ul class="submenuitem">
+                                    <div class="article-heading row">
+                                        <div class="icon col-2"><img src="img/menu_icons/1.png" alt=""></div>
+                                        <div class="col-10">
+                                            <h4>Article 1</h4>
+                                            <p>Lorem ipsum dolor sit sicing elit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                    </div>
+                                    <div class="article-heading row">
+                                        <div class="icon col-2"><img src="img/menu_icons/1.png" alt=""></div>
+                                        <div class="col-10">
+                                            <h4>Article 2</h4>
+                                            <p>Lorem ipsum dolor sit sicing elit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                        <li class="col-4"><a href="#">Subsection</a></li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li id="get-started" class="nav-item">
+                                <a class="nav-link" href="index.html">Get Started</a>
+                                <ul class="submenuitem">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span>Downloading Wallet</li>
+                                            <li><span class="icon"><img src="img/icons/buy.png" alt=""></span>Purchasing Peercoin</li>
+                                            <li><span class="icon"><img src="img/icons/minting.png" alt=""></span>Minting Peercoin</li>
+                                            <li><span class="icon"><img src="img/icons/mine.png" alt=""></span>Mining Peercoin</li>
+                                        </div>
+                                    </div>
 
-                                        </ul>
-                                    </li>
-                                    <li id="resources" class="nav-item">
-                                        <a class="nav-link" href="resources.html">Resources</a>
-                                        <ul class="submenuitem">
-                                            <li><span class="icon"><img src="img/icons/docs.png" alt=""></span><a href="https://docs.peercoin.net/"><font color="black">Documentation</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/exchange.png" alt=""><a href="resources.html#exchanges"><font color="black">Exchanges</font></a></span></li>
-                                            <li><span class="icon"><img src="img/icons/block.png" alt=""></span><a href="blockexplorers.html"><font color="black">Block Exploreres</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/whitepaper.png" alt=""></span><a href="whitepaper.html"><font color="black">Whitepaper</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/graphics.png" alt=""></span><a href="resources.html#graphics"><font color="black">Graphics</font></a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="projects" class="nav-item">
-                                        <a class="nav-link" href="#">Projects</a>
-                                        <ul class="submenuitem">
-                                            <li><span class="icon"><img src="img/icons/roadmap.png" alt=""></span><a href="roadmap.html"><font color="black">Roadmap</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/projects.png" alt=""></span><a href="projects.html"><font color="black">Projects</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/blog.png" alt=""></span><a href="https://medium.com/peercoin"><font color="black">Blog</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/foundation.png" alt=""></span><a href="foundation.html"><font color="black">Foundation</font></a></li>
-                                            <li class="contactUs"><span class="icon"><img src="img/icons/contact.png" alt=""></span><a href="contactus.html"><cont color="black">Contact Us</cont></a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="wallet" class="nav-item">
-                                        <a class="nav-link" href="wallet.html">Wallet</a>
-                                    </li>
-                                    <li id="community" class="nav-item">
-                                        <a class="nav-link" href="#">Community</a>
-                                        <ul class="submenuitem">
-                                            <li><span class="icon"><img src="img/icons/forum.png" alt=""></span><a href="https://talk.peercoin.net/"><font color="black">Forum</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/twitter.png" alt=""></span><a href="https://twitter.com/PeercoinPPC"><font color="black">Twitter</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/facebook.png" alt=""></span><a href="https://www.facebook.com/Peercoin/"><font color="black">Facebook</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/reddit.png" alt=""></span><a href="https://www.reddit.com/r/peercoin"><font color="black">Reddit</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/telegram.png" alt=""></span><a href="https://www.reddit.com/r/peercoin"><font color="black">Telegram</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/discord.png" alt=""></span><a href="https://discord.gg/XPxfwtG"><font color="black">Discord</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/youtube.png" alt=""></span><a href="https://www.youtube.com/user/PeerCoin"><font color="black">Youtube</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/github.png" alt=""></span><a href="https://github.com/peercoin/"><font color="black">Github</font></a></li>
-                                            <li><span class="icon"><img src="img/icons/bitcoinchat.png" alt=""></span><a href="https://bitcointalk.org/index.php?topic=101820.0;topicseen"><font color="black">Bitcoin Talk</font></a></li>
-                                        </ul>
-                                    </li>
+                                </ul>
+                            </li>
+                            <li id="resources" class="nav-item">
+                                <a class="nav-link" href="resources.html">Resources</a>
+                                <ul class="submenuitem">
+                                    <li><span class="icon"><img src="img/icons/docs.png" alt=""></span><a href="https://docs.peercoin.net/"><font color="black">Documentation</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/exchange.png" alt=""><a href="resources.html#exchanges"><font color="black">Exchanges</font></a></span></li>
+                                    <li><span class="icon"><img src="img/icons/block.png" alt=""></span><a href="resources.html#blockexplorers"><font color="black">Block Explorers</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/whitepaper.png" alt=""></span><a href="resources.html#whitepaper"><font color="black">Whitepaper</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/graphics.png" alt=""></span><a href="resources.html#graphics"><font color="black">Graphics</font></a></li>
+                                </ul>
+                            </li>
+                            <li id="projects" class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                                <ul class="submenuitem">
+                                    <li><span class="icon"><img src="img/icons/roadmap.png" alt=""></span><a href="roadmap.html"><font color="black">Roadmap</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/projects.png" alt=""></span><a href="projects.html"><font color="black">Projects</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/blog.png" alt=""></span><a href="https://medium.com/peercoin"><font color="black">Blog</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/foundation.png" alt=""></span><a href="foundation.html"><font color="black">Foundation</font></a></li>
+                                    <li class="contactUs"><span class="icon"><img src="img/icons/contact.png" alt=""></span><a href="contactus.html"><cont color="black">Contact Us</cont></a></li>
+                                </ul>
+                            </li>
+                            <li id="wallet" class="nav-item">
+                                <a class="nav-link" href="wallet.html">Wallet</a>
+                            </li>
+                            <li id="community" class="nav-item">
+                                <a class="nav-link" href="resources.html#communities">Community</a>
+                                <ul class="submenuitem">
+                                    <li><span class="icon"><img src="img/icons/forum.png" alt=""></span><a href="https://talk.peercoin.net/"><font color="black">Forum</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/twitter.png" alt=""></span><a href="https://twitter.com/PeercoinPPC"><font color="black">Twitter</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/facebook.png" alt=""></span><a href="https://www.facebook.com/Peercoin/"><font color="black">Facebook</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/reddit.png" alt=""></span><a href="https://www.reddit.com/r/peercoin"><font color="black">Reddit</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/telegram.png" alt=""></span><a href="https://www.reddit.com/r/peercoin"><font color="black">Telegram</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/discord.png" alt=""></span><a href="https://discord.gg/XPxfwtG"><font color="black">Discord</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/youtube.png" alt=""></span><a href="https://www.youtube.com/user/PeerCoin"><font color="black">Youtube</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/github.png" alt=""></span><a href="https://github.com/peercoin/"><font color="black">Github</font></a></li>
+                                    <li><span class="icon"><img src="img/icons/bitcoinchat.png" alt=""></span><a href="https://bitcointalk.org/index.php?topic=101820.0;topicseen"><font color="black">Bitcoin Talk</font></a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
          <!-- MENU CODE CHUNK ABOVE.  PASTE TO UPDATE PAGES-->
+    <div id="header-content" class="center-content">
+        <h1 class="title" style="padding-top: 150px">Peercoin Wallet</h1><br>
+        <p class="desc" style="padding-bottom: 40px">Wallet description</p>
+        <div class="buttonWrap">
+            <a href="#install"><span><button>Installation</button></span></a>
+            <a href="#paperwallet"><span><button>Paper Wallet</button></span></a>
+            <a href="#unofficialclients"><span><button>Unofficial Wallet Clients</button></span></a>
+        </div>
+    </div>
 
-    </section>
+</section>
 
 <section id="seven">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h1 class="title">Peercoin Wallet</h1><br>
+                <div class="col-md-8">
+                    <img src="img/wallets_splash.png" alt="" class="img-fluid">
+                </div>
 
-                <div class="row">
-                    <div class="col-md-8"> <img src="img/wallets_splash.png" alt="" class="img-fluid">
+                <div class="col-md-4">
+                    <div class="row mb-4 mt-2">
+                        <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-win-gitian.zip">
+                            <div class="row">
+                                <div class="col-md-4" style="margin-top: 15px"><br>
+                                        <img src="img/icons/block_green.png"  style="width: 40px">
+                                </div>
+
+                                <div class="col-md-8"  style="margin-top: 15px">
+                                        <br><h4 style="color: #41B54A;">Windows</h4><br>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                Download<br>
+                                <br>
+                            </div>
+                        </a>
                     </div>
 
-
-                    <div class="col-md-4">
-                        <div class="row mb-3 mt-2">
-                            <div class="col-md-12 bigbutton">
-                                    <br><h4 style="color: white;">Windows</h4>
-                                    <a href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-win-gitian.zip"><button class="shadow"><span>Download</span></button></a><br>
-                                    <br>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-12 bigbutton">
-
-
-                                    <br><h4 style="color: white;">Mac OS X</h4>
-                                    <a href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-osx-gitian.zip"><button class="shadow"><span>Download</span></button></a><br>
-                                    <br>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-12 bigbutton">
-
-
-                                    <br><h4 style="color: white;">Linux</h4>
-                                    <a href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-linux-gitian.zip"><button class="shadow"><span>Download</span></button></a><br>
-                                    <br>
-                            </div>
-                        </div>
+                    <div class="row mb-4">
+                        <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-osx-gitian.zip">
+                            <br><h4 style="color: #41B54A;">Mac OS X</h4><br>
+                            Download<br>
+                            <br>
+                        </a>
+                    </div>
+                    <div class="row mb-4">
+                        <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-linux-gitian.zip">
+                            <br><h4 style="color: #41B54A;">Linux</h4><br>
+                            Download<br>
+                            <br>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <!-- Signatures -->
+            <button class="collapsible justify-content-center">Signatures</button>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <th><i>File</i></th>
+                            <th><i>SHA-256</i></th>
+                        </tr>
+
+                        <!-- Windows Signature -->
+                        <tr>
+                            <th>peercoin-v0.6.4ppc-win-gitian.zip</th>
+                            <th>07ce9d85bc3ec63b72de5795c3f2d87cea1bed3ceee11bfbc31f42b7d312491e</th>
+                        </tr>
+
+                        <!-- OS X Signature -->
+                        <tr>
+                            <th>peercoin-v0.6.4ppc-osx-gitian.zip</th>
+                            <th>5503b0e4b7b0fa656a48687d6ea9ff3caced3842cb76135fba620fcbeebb2e29</th>
+                        </tr>
+
+                        <!-- Linux Signature -->
+                        <tr>
+                            <th>peercoin-v0.6.4ppc-linux-gitian.zip</th>
+                            <th>7ee8026f5292f4953b741cc3259e1c66742a095e038642e09d6f22c2438b4467</th>
+                        </tr>
+                    </table><br>
+                </div>
+
+                        <!-- Container Script -->
+                        <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                        </script>
     </div>
 </section>
 
@@ -382,7 +439,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="title">How to Install</h1>
+                <h1 class="title"><a name="install" style="padding-top: 100px">Installation</a></h1><br>
                 <div id="accordion">
 
                     <!-- Windows -->
@@ -397,26 +454,24 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                            <h3>Windows</h3>
-                                        <p>
-                                            NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
-                                            <ul>
-                                                <li>Open or Extract <code class="green">Peercoin_v0.6.4_win.zip</code></li>
-                                                <li>Install 32 bit or 64 bit version</li>
-                                                <li>Default installation directory is <code class="green">C:\Program Files\PPCoin</code> or <code class="green">C:\Program Files\Peercoin</code></li>
-                                                <li>Run <code class="green">peercoin-qt</code> or <code class="green">peercoin</code> from the Start menu or the installation directory</li>
-                                            </ul><br>
-                                            <h4>Daemon</h4>
-                                            <ul>
-                                                <li>Create ppcoin.conf in <code class="green">%APPDATA%\PPCoin</code></li>
-                                                <li>Run <code class="green">daemon\peercoind</code></li>
-                                                <li>Your wallet is located in <code class="green">C:\Users\&lt;username&gt;\AppData</code> (hidden folder).</li>
-                                                <li>Open the folder with <code class="green">Start menu -> Run...</code> (or press <code class="green">Winkey-R</code>), type <code class="green">%APPDATA%\PPCoin</code> into the field, and press Enter.</li>
-                                            </ul><br>
-                                            Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
-                                        </p>
-                                    </div>
+                                        <h3>Windows</h3>
 
+                                        NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
+                                        <ul>
+                                            <li>Open or Extract <code class="green">Peercoin_v0.6.4_win.zip</code></li>
+                                            <li>Install 32 bit or 64 bit version</li>
+                                            <li>Default installation directory is <code class="green">C:\Program Files\PPCoin</code> or <code class="green">C:\Program Files\Peercoin</code></li>
+                                            <li>Run <code class="green">peercoin-qt</code> or <code class="green">peercoin</code> from the Start menu or the installation directory</li>
+                                        </ul><br>
+                                        <h4>Daemon</h4>
+                                        <ul>
+                                            <li>Create <code class="green">ppcoin.conf</code> in <code class="green">%APPDATA%\PPCoin</code></li>
+                                            <li>Run <code class="green">daemon\peercoind</code></li>
+                                            <li>Your wallet is located in <code class="green">C:\Users\&lt;username&gt;\AppData</code> (hidden folder).</li>
+                                            <li>Open the folder with <code class="green">Start menu -> Run...</code> (or press <code class="green">Winkey-R</code>), type <code class="green">%APPDATA%\PPCoin</code> into the field, and press Enter.</li>
+                                        </ul><br>
+                                        Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -433,26 +488,25 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                            <h3>OS X</h3>
-                                        <p>
-                                            NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
-                                            <ul>
-                                                <li>Open or Extract <code class="green">peercoin-v0.6.4ppc-osx-gitian.zip</code></li>
-                                                <li>Mount <code class="green">Peercoin-Qt.dmg</code> by opening it</li>
-                                                <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
-                                                <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
-                                                <li>Go to <code class="green">Applications</code> and open <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code></li>
-                                            </ul><br>
-                                            <h4>Daemon</h4>
-                                            <ul>
-                                                <li>Unzip <code class="green">peercoind.zip</code></li>
-                                                <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/Library/Application Support/PPCoin</code></li>
-                                                <li>Run <code class="green">peercoind</code></li>
-                                            </ul>
-                                            Your wallet is located in <code class="green">~/Library/Application Support/PPCoin</code>. To open the folder, press Command-Shift-G in Finder, insert the path, and press Enter.<br><br>
+                                        <h3>OS X</h3>
 
-                                            Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
-                                        </p>
+                                        NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
+                                        <ul>
+                                            <li>Open or Extract <code class="green">peercoin-v0.6.4ppc-osx-gitian.zip</code></li>
+                                            <li>Mount <code class="green">Peercoin-Qt.dmg</code> by opening it</li>
+                                            <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
+                                            <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
+                                            <li>Go to <code class="green">Applications</code> and open <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code></li>
+                                        </ul><br>
+                                        <h4>Daemon</h4>
+                                        <ul>
+                                            <li>Unzip <code class="green">peercoind.zip</code></li>
+                                            <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/Library/Application Support/PPCoin</code></li>
+                                            <li>Run <code class="green">peercoind</code></li>
+                                        </ul>
+                                        Your wallet is located in <code class="green">~/Library/Application Support/PPCoin</code>. To open the folder, press Command-Shift-G in Finder, insert the path, and press Enter.<br><br>
+
+                                        Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
                                     </div>
                                 </div>
                             </div>
@@ -470,30 +524,30 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                            <h3>Generic Linux</h3>
-                                            <p>
-                                            NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
-                                            <ul>
-                                                <li>Unpack <code class="green">peercoin-v0.6.4ppc-linux-gitian.zip</code></li>
-                                                <li>Run <code class="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
-                                            </ul><br>
-                                            <h4>Daemon</h4>
-                                            <ul>
-                                                <li>Create <code>ppcoin.conf</code> in <code class="green">~/.ppcoin</code></li>
-                                                <li>Run <code class="green">bin/32/peercoind</code></li>
-                                            </ul>
-                                            Your wallet is located in <code class="green">~/.ppcoin.</code><br>
-                                            <i>Note: 64 bit binaries available in <code class="green">bin/64/{peercoin-qt,peercoind}</code>.</i>
-                                            </p>
-                                            <h3>ArchLinux</h3>
-                                            <p>
-                                            NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br><br>
-                                            If you are ArchLinux user, you can use an AUR helper like yaourt to automate the process for you.<br>
-                                            <code class="green">yaourt -S peercoin-qt</code>
+                                        <h3>Generic Linux</h3>
 
-                                            <br><br>
-                                            Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
-                                            </p>
+                                        NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
+                                        <ul>
+                                            <li>Unpack <code class="green">peercoin-v0.6.4ppc-linux-gitian.zip</code></li>
+                                            <li>Run <code class="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
+                                        </ul><br>
+                                        <h4>Daemon</h4>
+                                        <ul>
+                                            <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/.ppcoin</code></li>
+                                            <li>Run <code class="green">bin/32/peercoind</code></li>
+                                        </ul>
+                                        Your wallet is located in <code class="green">~/.ppcoin.</code><br>
+                                        <i>Note: 64 bit binaries available in <code class="green">bin/64/{peercoin-qt,peercoind}</code>.</i>
+
+                                        <h3>ArchLinux</h3>
+
+                                        NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br><br>
+                                        If you are ArchLinux user, you can use an AUR helper like yaourt to automate the process for you.<br>
+                                        <code class="green">yaourt -S peercoin-qt</code>
+
+                                        <br><br>
+                                        Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+
                                     </div>
                                 </div>
                             </div>
@@ -637,6 +691,97 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Paper Wallet -->
+<section id="seven">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title"><a name="paperwallet" style="padding-top: 100px">Paper Wallet</a></h1><br>
+            </div>
+            <div class="col-md-12">
+                <div class="row justify-content-center">
+                    <a class="col bigbutton-white" href="https://paperwallet.peercoin.net/">
+                        <br><h4>Paper Wallet</h4>
+                        <img class="exchange-icon" src="img/explorers/peercoin_green.png"><br>
+                        <br>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Whitepaper -->
+<section id="seven">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="title"><a name="unofficialclients" style="padding-top: 100px">Unofficial Wallet Clients</a></h1><br>
+            </div>
+            <div class="col-md-12">
+                <div class="row justify-content-center">
+                    <a class="col-md-3 bigbutton-white" href="https://www.ledger.com/">
+                        <br><h4>Ledger</h4>
+                        <img class="exchange-icon" src="img/wallets/ledger.png"><br>
+                        <i>Hardware Wallet</i><br>
+                        <br>
+                    </a>
+
+                    <a class="col bigbutton-white" href="https://www.coinomi.com/">
+                        <br><h4>Coinomi</h4>
+                        <img class="exchange-icon" src="img/wallets/coinomi.png"><br>
+                        <i>Mobile Wallet</i><br>
+                        <br>
+
+                    </a>
+
+                    <a class="col-md-3 bigbutton-white" href="https://www.cryptonator.com/">
+                        <br><h4>Cryptonator</h4>
+                        <img class="exchange-icon" src="img/wallets/cryptonator.png"><br>
+                        <i>Mobile/Web Wallet</i><br>
+                        <br>
+                    </a>
+
+                    <a class="col-md-3 bigbutton-white" href="http://uberpay.io/">
+                        <br><h4>UberPay</h4>
+                        <img class="exchange-icon" src="img/wallets/uberpay.png"><br>
+                        <i>Mobile/Web Wallet</i><br>
+                        <br>
+                    </a>
+
+                    <a class="col-md-3 bigbutton-white" href="https://www.coinspot.com.au/">
+                        <br><h4>Coinspot</h4>
+                        <img class="exchange-icon" src="img/wallets/coinspot.png"><br>
+                        <i>Web Wallet</i><br>
+                        <br>
+                    </a>
+
+                    <a class="col-md-3 bigbutton-white" href="https://www.coinvault.io/">
+                        <br><h4>CoinVault</h4>
+                        <img class="exchange-icon" src="img/wallets/coinvault.png"><br>
+                        <i>Web Wallet</i><br>
+                        <br>
+                    </a>
+
+                    <a class="col-md-3 bigbutton-white" href="https://holytransaction.com/">
+                        <br><h4>HolyTransaction</h4>
+                        <img class="exchange-icon" src="img/wallets/holytransaction.png"><br>
+                        <i>Web Wallet</i><br>
+                        <br>
+                    </a>
+
+                    <a class="col-md-3 bigbutton-white" href="https://magnumwallet.co">
+                        <br><h4>Magnum</h4>
+                        <img class="exchange-icon" src="img/wallets/magnum.png"><br>
+                        <i>Web Wallet</i><br>
+                        <br>
+                    </a>
                 </div>
             </div>
         </div>
