@@ -61,7 +61,7 @@
                         <ul class="submenuitem">
                             <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span><a href="#wallets_dropdown"><font color="black">Downloading Wallet</font></a></li>
                             <li><span class="icon"><img src="img/icons/buy.png" alt=""></span><a href="#purchasing_dropdown"><font color="black">Purchasing Peercoin</font></a></li>
-                            <li><span class="icon"><img src="img/icons/mint.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
+                            <li><span class="icon"><img src="img/icons/minting.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
                             <li><span class="icon"><img src="img/icons/mine.png" alt=""></span><a href="#mining_dropdown"><font color="black">Mining Peercoin</font></a></li>
                         </ul>
                     </li>
@@ -177,7 +177,7 @@
                                     <div class="col-12">
                                         <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span><a href="index.html#wallet_dropdown"><font color="black">Downloading Wallet</font></a></li>
                                         <li><span class="icon"><img src="img/icons/buy.png" alt=""></span><a href="#purchasing_dropdown"><font color="black">Purchasing Peercoin</font></a></li>
-                                        <li><span class="icon"><img src="img/icons/mint.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
+                                        <li><span class="icon"><img src="img/icons/minting.png" alt=""></span><a href="#minting_dropdown"><font color="black">Minting Peercoin</font></a></li>
                                         <li><span class="icon"><img src="img/icons/mine.png" alt=""></span><a href="#mining_dropdown"><font color="black">Mining Peercoin</font></a></li>
                                     </div>
                                 </div>
@@ -280,7 +280,7 @@
                                         <div class="col-12">
                                             <li><span class="icon"><img src="img/icons/wallet.png" alt=""></span>Downloading Wallet</li>
                                             <li><span class="icon"><img src="img/icons/buy.png" alt=""></span>Purchasing Peercoin</li>
-                                            <li><span class="icon"><img src="img/icons/mint.png" alt=""></span>Minting Peercoin</li>
+                                            <li><span class="icon"><img src="img/icons/minting.png" alt=""></span>Minting Peercoin</li>
                                             <li><span class="icon"><img src="img/icons/mine.png" alt=""></span>Mining Peercoin</li>
                                         </div>
                                     </div>
@@ -339,6 +339,7 @@
             <a href="#unofficialclients"><span><button>Unofficial Wallet Clients</button></span></a>
         </div>
     </div>
+
 </section>
 
 <section id="seven">
@@ -351,11 +352,23 @@
                 <div class="col-md-4">
                     <div class="row mb-4 mt-2">
                         <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-win-gitian.zip">
-                            <br><h4 style="color: #41B54A;">Windows</h4><br>
-                            Download<br>
-                            <br>
+                            <div class="row">
+                                <div class="col-md-4" style="margin-top: 15px"><br>
+                                        <img src="img/icons/block_green.png"  style="width: 40px">
+                                </div>
+
+                                <div class="col-md-8"  style="margin-top: 15px">
+                                        <br><h4 style="color: #41B54A;">Windows</h4><br>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                Download<br>
+                                <br>
+                            </div>
                         </a>
                     </div>
+
                     <div class="row mb-4">
                         <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-osx-gitian.zip">
                             <br><h4 style="color: #41B54A;">Mac OS X</h4><br>
@@ -372,7 +385,54 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <!-- Signatures -->
+            <button class="collapsible justify-content-center">Signatures</button>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <th><i>File</i></th>
+                            <th><i>SHA-256</i></th>
+                        </tr>
+
+                        <!-- Windows Signature -->
+                        <tr>
+                            <th>peercoin-v0.6.4ppc-win-gitian.zip</th>
+                            <th>07ce9d85bc3ec63b72de5795c3f2d87cea1bed3ceee11bfbc31f42b7d312491e</th>
+                        </tr>
+
+                        <!-- OS X Signature -->
+                        <tr>
+                            <th>peercoin-v0.6.4ppc-osx-gitian.zip</th>
+                            <th>5503b0e4b7b0fa656a48687d6ea9ff3caced3842cb76135fba620fcbeebb2e29</th>
+                        </tr>
+
+                        <!-- Linux Signature -->
+                        <tr>
+                            <th>peercoin-v0.6.4ppc-linux-gitian.zip</th>
+                            <th>7ee8026f5292f4953b741cc3259e1c66742a095e038642e09d6f22c2438b4467</th>
+                        </tr>
+                    </table><br>
+                </div>
+
+                        <!-- Container Script -->
+                        <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                        </script>
+    </div>
 </section>
 
 <section id="walletguide">
