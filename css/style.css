@@ -18,11 +18,11 @@ body {
 .row {
     margin-right: 0px;
     margin-left: 0px;}
-
+/*Medium Blog code */
 #fm-medium-embed{
-  box-sizing: border-box;
-  margin: 0 auto;
-  text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .fm-post-wrapper{
@@ -277,7 +277,7 @@ section#first header ul li#learn ul.submenuitem .row a {
     padding: 15px 0px; }
 section#first header ul li#learn ul.submenuitem .row a:hover {
     filter: grayscale(100);
-    text-decoration: none; }
+    text-decoration: underline; }
 section#first header ul li#learn ul.submenuitem .row li {
     text-align: center;
     padding: 10px; }
@@ -608,19 +608,21 @@ section#seven .bigbutton-white {
     box-shadow: 1px 2px 7px 0px #C0C0C0;
     background: #fff;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-right: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
     max-width: 20%}
 section#seven .bigbutton-graphics {
     box-shadow: 1px 2px 7px 0px #C0C0C0;
     background: #616161;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
     max-width: 20%}
 section#seven .bigbutton-white .h4{
+    max-width: 100%;
+    text-overflow: clip;
     color: #3cb054;}
 section#seven i{
     color: #3cb054;}
@@ -630,7 +632,7 @@ section#seven .wallet-icon{
     margin-top: 3px;
     margin-bottom: 6px;}
 section#seven .exchange-icon{
-    max-width: 100px;
+    max-width: 100%;
     max-height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;}
