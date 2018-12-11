@@ -1,5 +1,5 @@
 <header>
-    <span class="menu-trigger"><img src="img/menu.png" alt=""></span>
+            <span class="menu-trigger"><img src="img/menu.png" alt=""></span>
             <nav class="mobile-only">
                 <span class="menu-close" ><img src="img/back.png" alt=""></span>
                 <ul class="navbar-nav justify-content-center">
@@ -321,5 +321,4 @@
                     </div>
                 </div>
             </nav>
-</header>
-
+        </header>
