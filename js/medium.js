@@ -36,7 +36,8 @@ var feedmirror = {
 
         var fmPosts = fmPostsParent;
         var fmPostKeys = Object.keys(fmPosts);
-        var mediumImageCDN = 'https://cdn-images-1.medium.com/fit/t/1600/480/';
+        //var mediumImageCDN = 'https://cdn-images-1.medium.com/fit/t/1600/480/';
+        var mediumImageCDN = 'https://cdn-images-1.medium.com/fit/t/290/290/';
         var mediumProfileURL = 'https://medium.com/' + fmMediumUser + '/';
         var fmPostsCount = 4;
         var fmLinkOutText = 'Read all articles';
