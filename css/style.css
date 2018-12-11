@@ -264,7 +264,7 @@ section#first header ul li#learn ul.submenuitem {
     left: -160px; }
 section#first header ul li#learn ul.submenuitem div.article-heading {
     padding: 15px;
-    background: #f8f8f8; }
+    background: #fff; }
 section#first header ul li#learn ul.submenuitem div.article-heading h4 {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -333,7 +333,7 @@ section#first header ul li#resources ul li:hover,
 section#first header ul li#projects ul li:hover,
 section#first header ul li#community ul li:hover {
     padding-left: 20px;
-    background: #f8f8f8;
+    background: #fff;
     color: #3cb054; }
 section#first header ul li:hover ul {
     opacity: 1;
@@ -398,7 +398,7 @@ section#three .row h1.title {
     font-weight: 300;
     color: #3cb054; }
 section#three .row button {
-    background: #f8f8f8;
+    background: #fff;
     margin-top: 25px; }
 section#three .row button.green {
     background: #3cb054;
