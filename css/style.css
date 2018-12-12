@@ -183,6 +183,13 @@ section#first img.main_logo {
     width: 15%;
 }
 
+section#first img.mobile_menu {
+    vertical-align: middle;
+    border-style: none;
+    width: 10vw;
+    padding-right: 2vw;
+}
+
 section#first h1.title {
     color: #fff;
     font-weight: 300;
@@ -263,7 +270,10 @@ section#first header span.menu-trigger {
 }
 
 section#first header span.menu-trigger img {
-    width: 35px;
+    vertical-align: middle;
+    border-style: none;
+    width: 10vw;
+    padding-right: 1vw;
 }
 
 section#first header nav.mobile-only.show {
@@ -277,6 +287,17 @@ section#first header nav.mobile-only.show span.menu-trigger {
 
 section#first header nav.mobile-only.show span.menu-trigger img {
     width: 35px;
+}
+
+section#first header ul li img.mobileicons {
+    vertical-align: middle;
+    border-style: none;
+    width: 10vw;
+    padding-right: 3vw;
+}
+
+section#first header nav.mobile-only.show span.menu-trigger a.mobilemenu{
+    color: #000;
 }
 
 section#first header nav {
@@ -324,8 +345,6 @@ section#first header ul li.nav-item a span {
     padding: 6px;
     border-radius: 100px;
 }
-
-
 
 section#first header ul li#learn ul,
 section#first header ul li#get-started ul,
