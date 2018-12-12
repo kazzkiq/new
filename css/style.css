@@ -187,7 +187,7 @@ section#first img.mobile_menu {
     vertical-align: middle;
     border-style: none;
     width: 10vw;
-    padding-right: 2vw;
+    padding-right: 3vw;
 }
 
 section#first h1.title {
@@ -866,7 +866,6 @@ section#seven .bigbutton-white h4 {
 }
 section#seven i {
     color: #3cb054;
-    font-size: 1vw;
     overflow: hidden;
     margin-top: 1vw;
     margin-bottom: 1vw;
@@ -1110,7 +1109,7 @@ button.shadow-outline {
     }
 
     section#six {
-        padding-bottom: 60px;
+        padding-bottom: 0px;
     }
 
     section#six h1.title {
@@ -1133,6 +1132,33 @@ button.shadow-outline {
     section#six .signupwrap input[type=text],
     section#six .signupwrap input[type=submit] {
         height: 40px;
+    }
+
+    section#seven .col-md-3 {
+        min-width: 40vw;
+        margin-right: 1vw;
+        margin-left: 1vw;
+    }
+
+    section#seven .exchange-icon {
+    min-width: 20vw;
+    min-height: 20vw;
+    margin-bottom: 1vw;
+    }
+
+    section#seven .graphics-icon {
+    max-width: 20vw;
+    max-height: 20vw;
+    margin-bottom: 1vw;
+}
+
+    section#seven .bigbutton-white h4 {
+    color: #3cb054;
+    font-size: 4vw;
+    overflow: hidden;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
     }
 
     footer .container.footerwrapper {
