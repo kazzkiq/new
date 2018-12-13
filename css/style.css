@@ -392,6 +392,15 @@ section#first header ul li#community ul li span img {
     margin-right: 15px;
 }
 
+section#first header ul li#learn ul li span img,
+section#first header ul li#get-started ul li span img,
+section#first header ul li#resources ul li span img,
+section#first header ul li#projects ul li span img,
+section#first header ul li#community ul li span img {
+    width: 20px;
+    margin-right: 15px;
+}
+
 section#first header ul li#learn ul li.contactUs,
 section#first header ul li#get-started ul li.contactUs,
 section#first header ul li#resources ul li.contactUs,
@@ -422,9 +431,24 @@ section#first header ul li#get-started ul li:hover,
 section#first header ul li#resources ul li:hover,
 section#first header ul li#projects ul li:hover,
 section#first header ul li#community ul li:hover {
-    padding-left: 20px;
     background: #3cb054;
     color: #3cb054;
+}
+
+section#first header ul li#learn ul li:hover a,
+section#first header ul li#get-started ul li:hover a,
+section#first header ul li#resources ul li:hover a,
+section#first header ul li#projects ul li:hover a,
+section#first header ul li#community ul li:hover a{
+    color: #fff;
+}
+
+section#first header ul li#learn ul li:hover img,
+section#first header ul li#get-started ul li:hover img,
+section#first header ul li#resources ul li:hover img,
+section#first header ul li#projects ul li:hover img,
+section#first header ul li#community ul li:hover img{
+    filter: invert(100%);
 }
 
 section#first header ul li:hover ul {
@@ -527,19 +551,20 @@ section#three .row h1.title {
 
 section#three .row button {
     background: #fff;
-    margin-top: 25px;
+    margin-top: 1vw;
+    margin-left: auto;
 }
 
 section#three .row button.green {
     background: #3cb054;
-    margin-top: 2vw;
+    margin-top: 1vw;
     margin-left: auto;
 }
 
 section#three .row button.reverse {
     background: none;
     color: #000;
-    margin-top: 2vw;
+    margin-top: 1vw;
     margin-left: auto;
 }
 
@@ -921,17 +946,23 @@ footer .container.footerwrapper {
     margin-top: -200px;
 }
 footer .container.footerwrapper a {
+    color: #acadac;
+}
+
+footer .container.footerwrapper a.title {
     color: #3cb054;
 }
+
 footer .container.footerwrapper ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 1vw;
 }
 footer .container.footerwrapper ul li.title {
     color: #3cb054;
     font-size: 1.2em;
-    margin-bottom: 12px;
+    margin-bottom: .5vw;
+    margin-top: .5vw;
 }
 footer .container.footerwrapper ul li.list {
     font-size: 0.9em;
@@ -963,8 +994,8 @@ button {
     margin-bottom: 1vw;
     margin-right: .5vw;
     color: #3cb054;
-    width: 15vw;
-    height: 3vw;
+    width: 10vw;
+    height: 2vw;
 }
 }
 button.reverse {
