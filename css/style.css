@@ -1172,6 +1172,7 @@ button.shadow-outline {
 
 
 
+
     section#seven .exchange-icon {
     min-width: 20vw;
     min-height: 20vw;
@@ -1183,7 +1184,15 @@ button.shadow-outline {
     max-height: 20vw;
     margin-bottom: 1vw;
     padding-top: 1vw;
-}
+    }
+
+    section#seven .bigbutton-wallet {
+    box-shadow: 1px 2px 7px 0px #C0C0C0;
+    background: #fff;
+    border-radius: 20px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    }
 
     section#seven .bigbutton-white h4 {
     color: #3cb054;
