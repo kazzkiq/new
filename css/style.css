@@ -798,7 +798,7 @@ section#seven a {
     text-decoration: none;
 }
 section#seven .col-md-3 {
-    margin: 15px 0px;
+    margin: .1vw;
 }
 section#seven .col-md-3 .imgwrap {
     width: 100%;
@@ -1167,7 +1167,10 @@ button.shadow-outline {
         min-width: 40vw;
         margin-right: 1vw;
         margin-left: 1vw;
+        margin: 1vw;
     }
+
+
 
     section#seven .exchange-icon {
     min-width: 20vw;
@@ -1179,6 +1182,7 @@ button.shadow-outline {
     max-width: 20vw;
     max-height: 20vw;
     margin-bottom: 1vw;
+    padding-top: 1vw;
 }
 
     section#seven .bigbutton-white h4 {
