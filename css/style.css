@@ -1002,6 +1002,11 @@ button.reverse {
     background: none;
     color: #fff;
 }
+
+button.reverse:hover {
+    background: : #f1f1f1;
+    color: red;
+}
 button.green {
     background: #3cb054;
     color: #fff;
