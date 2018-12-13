@@ -987,34 +987,26 @@ footer .container.postfooter .row .col-12 span {
 footer .container.postfooter .row .col-12 span.right {
     float: right;
 }
-button {
-    background: #fff;
-    border: 2px solid #fff;
-    border-radius: 75px;
-    margin-bottom: 1vw;
-    margin-right: .5vw;
-    color: #3cb054;
-    width: 10vw;
-    height: 2vw;
-}
-}
-button.reverse {
-    background: none;
-    color: #fff;
-}
 
-button.reverse:hover {
-    background: : #f1f1f1;
-    color: red;
-}
+button {
+  background: #FAFAFA;
+  border: 2px solid #FAFAFA;
+  border-radius: 100px;
+  color: #41B54A;
+  width: 200px;
+  height: 50px; }
+
+button.reverse {
+  background: none;
+  color: #FAFAFA; }
+
 button.green {
-    background: #3cb054;
-    color: #fff;
-}
+  background: #41B54A;
+  color: #FAFAFA; }
+
 button.shadow {
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
-    color: #3cb054;
-}
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
+  color: #41B54A; }
 button.shadow-outline {
     border: 1px solid #3cb054;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
