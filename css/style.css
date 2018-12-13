@@ -989,8 +989,8 @@ footer .container.postfooter .row .col-12 span.right {
 }
 
 button {
-  background: #FAFAFA;
-  border: 2px solid #FAFAFA;
+  background: #fff;
+  border: 2px solid #fff;
   border-radius: 100px;
   color: #41B54A;
   width: 200px;
@@ -998,15 +998,15 @@ button {
 
 button.reverse {
   background: none;
-  color: #FAFAFA; }
+  color: #fff; }
 
 button.green {
-  background: #41B54A;
-  color: #FAFAFA; }
+  background: #3cb054;
+  color: #fff; }
 
 button.shadow {
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
-  color: #41B54A; }
+  color: #3cb054; }
 button.shadow-outline {
     border: 1px solid #3cb054;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
