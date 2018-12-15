@@ -357,10 +357,13 @@ section#first header ul li.nav-item a.submenu {
 }
 
 section#first header ul li.nav-item a span {
-    background: #fff;
-    color: #3cb054;
     padding: 6px;
     border-radius: 100px;
+}
+
+section#first header ul li.nav-item a span.lang {
+    background: #fff;
+    color: #3cb054;
 }
 
 section#first header ul li.nav-item a div {
