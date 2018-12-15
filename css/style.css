@@ -357,6 +357,8 @@ section#first header ul li.nav-item a.submenu {
 }
 
 section#first header ul li.nav-item a span {
+    background: #fff;
+    color: #3cb054;
     padding: 6px;
     border-radius: 100px;
 }
