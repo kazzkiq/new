@@ -257,8 +257,7 @@ section#first header nav.mobile-only ul.navbar-nav li.nav-item ul li a span.icon
 }
 
 section#first header nav.mobile-only ul.navbar-nav li.nav-item ul li a span.icon img {
-    width: 25px;
-    filter: invert(100%);
+    width: 35px;
     margin-right: 10px;
 }
 
