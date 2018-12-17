@@ -27,6 +27,7 @@ a.linked {
     padding-top: 10vh;
 }
 
+
 /*Medium Blog code */
 
 #fm-medium-embed {
@@ -396,7 +397,7 @@ section#first header ul li#learn ul li a,
 section#first header ul li#get-started ul li a,
 section#first header ul li#resources ul li a,
 section#first header ul li#projects ul li a,
-section#first header ul li#community ul li a{
+section#first header ul li#community ul li a {
     padding: 10px 15px;
     transition: 0.1s ease-in;
     cursor: pointer;
@@ -830,7 +831,6 @@ section#seven a {
     color: #3cb054;
     text-decoration: none;
 }
-
 section#seven .col-md-3 {
     margin: .1vw;
 }
@@ -949,8 +949,7 @@ section#seven .col-md-4 .imgwrap.whitepaper {
 footer {
     background: #f7f7f7;
 }
-
-footer a{
+footer a {
     color: #3cb054;
 }
 footer .container.footerwrapper {
@@ -961,7 +960,6 @@ footer .container.footerwrapper {
 footer .container.footerwrapper a {
     color: #acadac;
 }
-
 footer .container.footerwrapper a.title {
     color: #3cb054;
 }
@@ -1038,7 +1036,6 @@ button.shadow-outline {
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
     color: #3cb054;
 }
-
 #accordion {
     position: relative;
     padding-left: 30px;
@@ -1159,7 +1156,7 @@ button.shadow-outline {
     }
 
     a.linked {
-    padding-top: 2vh;
+        padding-top: 2vh;
     }
 
     section#language {
@@ -1257,6 +1254,10 @@ button.shadow-outline {
 
     section#three .row:nth-child(even) .col-md-6.image-wrapper {
         order: 1;
+    }
+
+    section#four img.sidecard {
+        width: 85vw;
     }
 
     section#six {
