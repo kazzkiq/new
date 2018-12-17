@@ -632,7 +632,7 @@ section#walletguide {
     color: #fff;
 }
 
-section#walletguide code.green {
+code.green {
     color: #3cb054;
 }
 
@@ -909,16 +909,30 @@ section#seven i {
     text-align: center;
 }
 section#seven .wallet-icon {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 5vw;
+    max-height: 5vh;
     margin-top: 3px;
     margin-bottom: 6px;
 }
 section#seven .exchange-icon {
     max-width: 5vw;
-    max-height: 5vw;
+    max-height: 5vh;
     margin-bottom: 1vw;
 }
+
+section#seven .portrait-icon {
+    max-width: 10vw;
+    max-height: 10vh;
+    margin-bottom: 1vw;
+    border-radius: 15px;
+}
+
+section#seven .portrait-anon-icon {
+    max-width: 10vw;
+    max-height: 10vh;
+    margin-bottom: 1vw;
+}
+
 section#seven .graphics-icon {
     max-width: 5vw;
     max-height: 5vw;
