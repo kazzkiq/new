@@ -201,7 +201,7 @@ section#first img.mobile_menu {
 
 section#first h1.title {
     color: #fff;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 section#first p.desc {
@@ -573,7 +573,7 @@ section#three .row .col-md-6.image-wrapper img {
 }
 
 section#three .row h1.title {
-    font-weight: 300;
+    font-weight: 200;
     color: #3cb054;
 }
 
@@ -592,7 +592,7 @@ section#four {
 }
 
 section#four h1.title {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 2.2em;
     margin-bottom: 25px;
 }
@@ -637,7 +637,7 @@ section#walletguide code.green {
 }
 
 section#walletguide h1.title {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 2.2em;
     margin-bottom: 25px;
 }
@@ -761,7 +761,7 @@ section#six {
 
 section#six h1.title {
     color: #3cb054;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 section#six p.desc {
@@ -1205,7 +1205,7 @@ button.shadow-outline {
 
     section#first h1.title {
         font-size: 1.4em;
-        font-weight: 300;
+        font-weight: 200;
     }
 
     section#first p.desc {
