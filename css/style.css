@@ -1203,6 +1203,10 @@ button.shadow-outline {
         padding-bottom: 0px;
     }
 
+    section#first header ul li.nav-item a.submenu {
+    color: #fff;
+    }
+
     section#first header span.menu-trigger {
         display: block;
     }
