@@ -1437,6 +1437,7 @@ button.shadow-outline {
 }
 html {
     -ms-overflow-style: -ms-autohiding-scrollbar;
+    scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */
