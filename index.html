@@ -32,8 +32,12 @@
                 <h1 class="title" style="margin-top: 0vw; margin-bottom: 2vw">The Pioneer of Proof of Stake</h1>
                 <p class="desc">The world's first efficient and sustainable public blockchain, serving as a secure base layer for the future blockchain connected world.</p>
                 <div class="buttonWrap" style="margin-bottom: 9vh">
-                    <a href="#" style="padding-top: 100px"><span><button class="reverse">What is Peercoin?</button></span></a>
-                    <a href="#getstarted"><button>Get Started</button></a>
+                    <!-- Needs a link -->
+
+                    <a href="index.html#wallet_dropdown"><button class="reverse" data-toggle="collapse" data-target="#collapseOne">What is Peercoin?</button></a>
+
+                    <a href="index.html#getstarted"><button>Get Started</button></a>
+
                 </div>
             </div>
         </section>
@@ -162,10 +166,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="title"><a name="getstarted" style="padding-top: 100px">Get Started</a></h1>
+                        <h1 class="title"><a name="getstarted" class="linked">Get Started</a></h1>
                         <div id="accordion">
                             <div class="card">
-                                <div class="card-header" id="getstarted_dropdown" href="test">
+                                <div class="card-header">
                                     <h5 data-toggle="collapse" data-target="#collapsezero" aria-expanded="true" aria-controls="collapsezero">
                                         <!-- Anchor might be an issue -->
                                         <a id="learn"><span><img src="img/icons/graduationcap_white.png" alt=""></span>Learn</a>
@@ -190,9 +194,9 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="wallets_dropdown">
-                                    <h5 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <a id="wallet_dropdown"><span><img src="img/icons/wallet_white.png" alt=""></span>Wallets</a>
+                                <div class="card-header">
+                                    <h5 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                                        <span><img src="img/icons/wallet_white.png" alt=""></span><a id="wallet_dropdown" class="linked">Wallets</a>
                                     </h5>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
