@@ -12,7 +12,6 @@
         <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon96.png" sizes="96x96" />
         <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon128.png" sizes="128x128" />
         <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon256.png" sizes="256x256" />
-        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -36,9 +35,9 @@
                 <div class="buttonWrap" style="margin-bottom: 9vh">
                     <!-- Needs a link -->
 
-                    <a href="index.html#accordion"><button class="reverse" id="walletButton"> is Peercoin?</button></a>
+                    <a href="index.html#getstarted"><button class="reverse">Get Started</button></a>
 
-                    <a href="index.html#getstarted"><button>Get Started</button></a>
+                    <a href="#"><button>What is Peercoin?</button></a>
 
                 </div>
             </div>
@@ -170,18 +169,18 @@
                     <div class="col-md-12">
                         <h1 class="title"><a name="getstarted" class="linked">Get Started</a></h1>
                         <div id="accordion">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 data-toggle="collapse" data-target="#collapsezero" aria-expanded="true" aria-controls="collapsezero">
-                                        <!-- Anchor might be an issue -->
-                                        <a id="learn"><span><img src="img/icons/graduationcap_white.png" alt=""></span>Learn</a>
-                                    </h5>
-                                </div>
-                                <div id="collapsezero" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <p>
+                        <div class="card">
+                            <div class="card-header" id="wallets_dropdown">
+                                <h5 data-toggle="collapse" data-target="#collapsezero" aria-expanded="true" aria-controls="collapsezero">
+                                    <a id="learn"><span><img src="img/wallets.png" alt=""></span>Learn</a>
+                                </h5>
+                            </div>
+
+                            <div id="collapsezero" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
                                                     Peercoin is an established and versatile project offering <a href="wallet.html" class="intext">multiple wallet clients,</a> <a href="resources.html#exchanges" class="intext">a large number of exchanges,</a> and a <a href="resources.htmlcommunities" class="intext">robust community.</a><br><br>
                                                     For an in-depth overview of the project, <a href="#" class="intext">Peercoin University</a> is the best starting place.  For more articles, Peercoin related information, check out our <a href="https://medium.com/peercoin" class="intext">Medium Blog</a> to find more writings.<br><br>
                                                     For those who are looking to develop, PeerAssets is Peercoin's second layer asset solution.  <a  href="projects.html" class="intext">More information can be found here.</a><br><br>
@@ -196,16 +195,17 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header">
-                                    <h5 data-toggle="collapse" class = "collapsed" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
-                                        <span><img src="img/icons/wallet_white.png" alt=""></span><a id="wallet_dropdown" class="linked">Wallets</a>
-                                    </h5>
-                                </div>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <p>
+                            <div class="card-header" id="purchasing_dropdown">
+                                <h5 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <span><img src="img/Purchase.png" alt=""></span>Purchase
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
                                                     The <a href="wallet.html" class="intext">Peercoin wallet</a> is available on Windows, Mac OSX, and Linux platforms.<br> <br>
                                                     Command-line experiences are also available.<br><br>
                                                     To get started, check out the Wallet download page and the Installation guide's.
@@ -252,7 +252,7 @@
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
-                                                    The use of Proof-of-stake mining in Peercoin is efficient because network security is not dependent on the use of massive amounts of electrical energy (proof-of-energy-burn). Instead minters invest their coins and time to emulate the PoW process. This is done by simply opening up their wallet app, sending coins to their address and letting them sit there while they are occasionally selected by the protocol to mint the next block. This process is both energy and cost efficient.<br><br>
+                                                    The use of Proof-of-stake mining in Peercoin is efficient because network security is not dependent on the use of massive amounts of electrical energy (proof-of-energy-burn). Instead minters invest their coins and time to emulate the PoW process. <br><br>This is done by simply opening up their wallet app, sending coins to their address and letting them sit there while they are occasionally selected by the protocol to mint the next block. This process is both energy and cost efficient.<br><br>
                                                     You can find more information on minting in the <a href="https://docs.peercoin.net/#/peercoin-minting-behaviour" class="intext">Peercoin documentation.</a>
                                                 </p>
                                             </div>

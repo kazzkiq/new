@@ -613,7 +613,6 @@ section#four .card .card-header span img {
 }
 
 section#four .card .card-body .col-md-6:first-child {
-    opacity: 0.8;
     text-align: justify;
 }
 
