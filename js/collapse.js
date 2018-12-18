@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#walletButton").click(function(){
-        $('collapseOne').collapse('show')
+    $("#walletButton").click(function(e){
+        $('#collapseOne').collapse('show');
     }); 
 });
