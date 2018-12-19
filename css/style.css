@@ -476,7 +476,7 @@ section#first header ul li#get-started ul li:hover img,
 section#first header ul li#resources ul li:hover img,
 section#first header ul li#projects ul li:hover img,
 section#first header ul li#community ul li:hover img {
-    filter: invert(100%);
+    filter: brightness(0) invert(1);
 }
 
 section#first header ul li:hover ul {
@@ -1201,10 +1201,6 @@ button.shadow-outline {
 
     section#first {
         padding-bottom: 0px;
-    }
-
-    section#first header ul li.nav-item a.submenu {
-    color: #fff;
     }
 
     section#first header span.menu-trigger {
