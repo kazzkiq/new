@@ -1168,6 +1168,10 @@ button.shadow-outline {
         padding-bottom: 2vw;
     }
 
+    section#first header ul li.nav-item a.submenu {
+    color: #fff;
+    }
+
     a.linked {
         padding-top: 2vh;
     }
