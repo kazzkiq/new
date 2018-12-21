@@ -545,7 +545,7 @@ section#two .row img.laptop-mobile {
 }
 
 section#two .row h1.title {
-    font-weight: 500;
+    font-weight: 400;
     color: #3cb054;
 }
 
@@ -576,7 +576,12 @@ section#three .row .col-md-6.image-wrapper img {
 }
 
 section#three .row h1.title {
-    font-weight: 500;
+    font-weight: 400;
+    color: #3cb054;
+}
+
+section#three .row h1.titlethick {
+    font-weight: 400;
     color: #3cb054;
 }
 
@@ -595,7 +600,7 @@ section#four {
 }
 
 section#four h1.title {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 2.2em;
     margin-bottom: 25px;
 }
@@ -639,7 +644,7 @@ code.green {
 }
 
 section#walletguide h1.title {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 2.2em;
     margin-bottom: 25px;
 }
@@ -680,7 +685,7 @@ section#five {
 }
 
 section#five .title {
-    font-weight: 500;
+    font-weight: 400;
     color: #3cb054;
 }
 
@@ -724,7 +729,7 @@ section#five .col-md-4 .imgwrap.whitepaper {
 }
 
 section#five .col-md-4 h2 {
-    font-weight: 500;
+    font-weight: 400;
     padding: 10px 0px 0px 0px;
     margin: 0;
 }
@@ -763,7 +768,7 @@ section#six {
 
 section#six h1.title {
     color: #3cb054;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 section#six p.desc {
@@ -807,12 +812,12 @@ section#seven {
 }
 
 section#seven .title {
-    font-weight: 500;
+    font-weight: 400;
     color: #3cb054;
 }
 
 section#seven .title-alt {
-    font-weight: 500;
+    font-weight: 400;
     color: #000;
 }
 
@@ -1225,7 +1230,7 @@ button.shadow-outline {
 
     section#first h1.title {
         font-size: 1.4em;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     section#first p.desc {
