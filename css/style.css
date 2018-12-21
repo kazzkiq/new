@@ -27,6 +27,9 @@ a.linked {
     padding-top: 10vh;
 }
 
+p {
+    font-weight: 300;
+}
 
 /*Medium Blog code */
 
@@ -54,7 +57,7 @@ a.linked {
 
 .fm-post-title {
     font-size: 20px;
-    font-weight: 350;
+    font-weight: 300;
     height: 80px;
     padding: 10px 0px 0px 0px;
     white-space: initial;
@@ -117,7 +120,7 @@ a.linked {
 
 th {
     text-align: left;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 13px;
 }
 
@@ -183,7 +186,7 @@ section#language h1 {
 }
 
 section#first {
-    padding-bottom: 60px;
+    padding-bottom: 1vh;
     background: #3cb054;
 }
 
@@ -541,8 +544,8 @@ section#two .row img.laptop-mobile {
     display: none;
 }
 
-section#two .row .col-md-6 h1.title {
-    font-weight: 200;
+section#two .row h1.title {
+    font-weight: 500;
     color: #3cb054;
 }
 
@@ -573,7 +576,7 @@ section#three .row .col-md-6.image-wrapper img {
 }
 
 section#three .row h1.title {
-    font-weight: 200;
+    font-weight: 500;
     color: #3cb054;
 }
 
@@ -592,7 +595,7 @@ section#four {
 }
 
 section#four h1.title {
-    font-weight: 200;
+    font-weight: 500;
     font-size: 2.2em;
     margin-bottom: 25px;
 }
@@ -636,7 +639,7 @@ code.green {
 }
 
 section#walletguide h1.title {
-    font-weight: 200;
+    font-weight: 500;
     font-size: 2.2em;
     margin-bottom: 25px;
 }
@@ -677,7 +680,7 @@ section#five {
 }
 
 section#five .title {
-    font-weight: 300;
+    font-weight: 500;
     color: #3cb054;
 }
 
@@ -721,7 +724,7 @@ section#five .col-md-4 .imgwrap.whitepaper {
 }
 
 section#five .col-md-4 h2 {
-    font-weight: 300;
+    font-weight: 500;
     padding: 10px 0px 0px 0px;
     margin: 0;
 }
@@ -760,7 +763,7 @@ section#six {
 
 section#six h1.title {
     color: #3cb054;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 section#six p.desc {
@@ -804,12 +807,12 @@ section#seven {
 }
 
 section#seven .title {
-    font-weight: 300;
+    font-weight: 500;
     color: #3cb054;
 }
 
 section#seven .title-alt {
-    font-weight: 300;
+    font-weight: 500;
     color: #000;
 }
 
@@ -1222,7 +1225,7 @@ button.shadow-outline {
 
     section#first h1.title {
         font-size: 1.4em;
-        font-weight: 200;
+        font-weight: 500;
     }
 
     section#first p.desc {
