@@ -14,8 +14,14 @@
         <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
     </head>
     <body>
+
+        <script src="http://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
+            <script>
+                new WOW().init();
+            </script>
         <div id="loader-wrapper">
             <div id="loader"></div>
         </div>
@@ -39,7 +45,7 @@
         <!-- Projects -->
         <section id="three">
             <div class="container">
-                <div class="row">
+                <div data-wow-delay=".2s" class="row wow fadeIn justify-content-center">
                     <div class="col-md-6 content-wrapper">
                         <h1 class="title"><a name="peerassets" style="padding-top: 100px">PeerAssets</a></h1>
                         <p class="desc">A simple explanation on how PeerAssets protocol works would be that it works by writing and reading messages on the blockchain, where messages represent assets and addresses represent peers.<br><br>
@@ -59,7 +65,7 @@
                     </div>
                 </div>
                 <!-- Direct User Governance -->
-                <div class="row">
+                <div data-wow-delay=".2s" class="row wow fadeIn justify-content-center">
                     <div class="col-md-6 content-wrapper">
                         <h1 class="title"><a name="perpera" style="padding-top: 100px">Perpera</a></h1>
                         <p class="desc">
