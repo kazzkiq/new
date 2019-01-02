@@ -209,7 +209,7 @@ section#first h1.main {
 }
 
 section#first h1.title {
-    padding: 15vh 0vh 2vh;
+    padding: 10vh 0vh 2vh;
     color: #fff;
     font-weight: 200;
 }
@@ -222,6 +222,10 @@ section#first p.desc {
     margin: 0vw 25vw 3vh 25vw;
     letter-spacing: .1px;
 }
+
+section#first .buttonWrap {
+        padding: 0vh 0vh 2vh;
+    }
 
 section#first header nav.mobile-only {
     position: fixed;
