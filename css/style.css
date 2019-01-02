@@ -1222,6 +1222,12 @@ button.shadow-outline {
         line-height: 3em;
     }
 
+    section#three .row h1.titlethick {
+    text-align: center;
+    font-weight: 400;
+    color: #3cb054;
+    }
+
     section#first {
         padding-bottom: 0px;
     }
