@@ -7,9 +7,11 @@ The static html files for [Peercoin.net](http://peercoin.net). The website is au
 Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/peercoin/peercoin.net/issues). We will try to get to your issue as soon as possible.
 
 ### Pull Requests
-If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site just by accepting the pull, which makes everything easier.
+If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site just by accepting the pull, which makes everything easier. We are currently using [Tip4Commit](http://tip4commit.com/projects/222) and [Peer4Commit](http://peer4commit.com/projects/2) to reward commiters. Fluff commits will be rejected. 
 
-If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
+[![tip for next commit](http://tip4commit.com/projects/222.svg)](http://tip4commit.com/projects/222) [![tip for next commit](http://peer4commit.com/projects/50.svg)](http://peer4commit.com/projects/50)
+
+If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). 
 
 ### Translations
 Changes to translations as well as new translations can be submitted to
@@ -28,16 +30,16 @@ URL Rewriting via Apache's ```mod_rewrite``` module has issues when the ```Multi
 
 We run the deploy.sh every 10 minutes, so that the live site is always up to date. The cron job is listed below:
 
-    */10 * * * * /root/deploy.sh > /root/error.txt 2>&1
+	*/10 * * * * /root/deploy.sh > /root/error.txt 2>&1
 
 The script(deploy.sh):
 
     #!/bin/bash
 
-    # Install - Only Run Once
-    # git clone https://github.com/peercoin/peercoin.net.git /var/www
-
-    # Update
-    cd /var/www/
-    git fetch origin
-    git reset --hard origin/master
+	# Install - Only Run Once
+	# git clone https://github.com/peercoin/peercoin.net.git /var/www
+	
+	# Update
+	cd /var/www/
+	git fetch origin
+	git reset --hard origin/master
