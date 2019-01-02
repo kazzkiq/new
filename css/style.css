@@ -1037,7 +1037,6 @@ button {
     width: 200px;
     height: 50px;
     margin: .5vw;
-    padding: .5vw 1vw .5vw 1vw;
 }
 button:hover {
     background: #F0F0F0;
