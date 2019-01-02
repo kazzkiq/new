@@ -192,7 +192,7 @@ section#first {
 
 section#first img.main_logo {
     margin: 14vh 0vh 6vh;
-    width: 20vw;
+    max-width: 20vw;
 }
 
 section#first img.mobile_menu {
