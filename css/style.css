@@ -203,6 +203,7 @@ section#first img.mobile_menu {
 }
 
 section#first h1.title {
+    padding: 10vh 0vh 2vh;
     color: #fff;
     font-weight: 200;
 }
@@ -212,7 +213,7 @@ section#first p.desc {
     font-weight: 300;
     font-size: 1.2em;
     width: 50%;
-    margin: 0 25% 2% 25%;
+    margin: 0vw 25vw 3vh 25vw;
     letter-spacing: 1px;
 }
 
@@ -1241,7 +1242,7 @@ button.shadow-outline {
     }
 
     section#first .buttonWrap {
-        padding: 5vh 0vh;
+        padding: 0vh 0vh;
     }
 
     button {
