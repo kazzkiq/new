@@ -216,11 +216,11 @@ section#first h1.title {
 
 section#first p.desc {
     color: #fff;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 1.2em;
     width: 50%;
     margin: 0vw 25vw 3vh 25vw;
-    letter-spacing: 1px;
+    letter-spacing: .1px;
 }
 
 section#first header nav.mobile-only {
@@ -1033,7 +1033,7 @@ button {
     width: 200px;
     height: 50px;
     margin: .5vw;
-    padding .5vw 1vw .5vw 1vw;
+    padding: .5vw 1vw .5vw 1vw;
 }
 button:hover {
     background: #F0F0F0;
@@ -1242,9 +1242,10 @@ button.shadow-outline {
 
     section#first p.desc {
         font-size: 0.8em;
+        font-weight: 350;
         width: 80%;
         margin: 0 10% 2% 10%;
-        letter-spacing: 1px;
+        letter-spacing: .1px;
     }
 
     section#first .buttonWrap {
