@@ -871,6 +871,7 @@ section#seven table {
 section#seven a {
     color: #3cb054;
     text-decoration: none;
+    font-weight: 300;
 }
 section#seven .col-md-3 {
     margin: .1vw;
@@ -939,6 +940,7 @@ section#seven .bigbutton-white h4 {
     margin-bottom: 1vw;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 300;
 }
 section#seven i {
     color: #3cb054;
@@ -1410,6 +1412,7 @@ button.shadow-outline {
         margin-bottom: 1vw;
         margin-left: auto;
         margin-right: auto;
+        font-weight: 300;
     }
 
     footer .container.footerwrapper {
