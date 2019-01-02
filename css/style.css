@@ -1060,7 +1060,13 @@ button {
     width: 200px;
     height: 50px;
     margin: .5vw;
+    cursor:pointer;
 }
+
+button:focus {
+    outline-color: #d3d3d3;
+}
+
 button:hover {
     background: #F0F0F0;
     border: 2px solid #F0F0F0;
