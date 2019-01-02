@@ -1259,7 +1259,11 @@ button.shadow-outline {
     margin: 0 10vw 2vh 10vw;
     }
 
-
+    section#three h3 {
+    font-weight: 300;
+    color: #3cb054;
+    margin: 0vw 2vw 0vw 2vw;
+    }
 
     section#first {
         padding-bottom: 0px;
@@ -1275,7 +1279,7 @@ button.shadow-outline {
 
     section#first img.main_logo {
         margin: 20px;
-        width: 15vh;
+        width: 30vh;
     }
 
     section#first h1.title {
@@ -1295,9 +1299,19 @@ button.shadow-outline {
     section#three p.desc {
         font-size: 1em;
         font-weight: 350;
-        width: 80%;
-        margin: 0 10vw 2vh 10vw;
+        width: auto;
+        margin: 0vw 2vw 0vw 2vw;
         letter-spacing: .1px;
+        display: block;
+    }
+
+    section#seven p {
+        font-size: 1em;
+        font-weight: 350;
+        width: auto;
+        margin: 0vw 2vw 0vw 2vw;
+        letter-spacing: .1px;
+        display: block;
     }
 
     section#first .buttonWrap {
@@ -1441,7 +1455,7 @@ button.shadow-outline {
     }
 
     #accordion * {
-        padding-right: 0px;
+        padding-right: 1vw;
     }
 
     #accordion .card-body {
