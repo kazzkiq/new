@@ -1437,6 +1437,12 @@ button.shadow-outline {
         margin-right: auto;
         font-weight: 300;
     }
+    section#four h1.title {
+        text-align: center;
+        font-weight: 400;
+        color: #fff;
+        margin: 0 10vw 2vh 10vw;
+    }
 
     footer .container.footerwrapper {
         margin-top: 0;
@@ -1456,11 +1462,12 @@ button.shadow-outline {
 
     #accordion * {
         padding-right: 1vw;
+
     }
 
     #accordion .card-body {
         padding: 0px;
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
