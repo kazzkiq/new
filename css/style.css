@@ -191,8 +191,8 @@ section#first {
 }
 
 section#first img.main_logo {
-    margin: 14vh 0vh 6vh;
-    max-width: 20vw;
+    margin: 30px;
+    width: 15%;
 }
 
 section#first img.mobile_menu {
@@ -210,6 +210,12 @@ section#first h1.main {
 
 section#first h1.title {
     padding: 15vh 0vh 2vh;
+    color: #fff;
+    font-weight: 200;
+}
+
+section#first h1.title_home {
+    padding: 0vh 0vh 2vh;
     color: #fff;
     font-weight: 200;
 }
@@ -1427,8 +1433,8 @@ button.shadow-outline {
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
     section#first img.main_logo {
-        margin: 14vh 0vh 6vh;
-        max-width: 10vw;
+        margin: 30px;
+        width: 15%;
     }
 }
 #loader-wrapper {
