@@ -1256,13 +1256,27 @@ button.shadow-outline {
     text-align: center;
     font-weight: 400;
     color: #3cb054;
-    margin: 0 10vw 2vh 10vw;
+    margin: 0vh 10vw 2vh 10vw;
     }
 
     section#three h3 {
     font-weight: 300;
     color: #3cb054;
     margin: 0vw 2vw 0vw 2vw;
+    }
+
+    section#three h5 {
+    font-weight: 300;
+    color: #3cb054;
+    margin: 0vw 2vw 0vw 2vw;
+    }
+
+    section#three li {
+        font-size: 1em;
+        font-weight: 350;
+        width: auto;
+        margin: 0vw 2vw 0vw 2vw;
+        letter-spacing: .1px;
     }
 
     section#first {
@@ -1292,8 +1306,9 @@ button.shadow-outline {
         font-size: 1em;
         font-weight: 350;
         width: 80%;
-        margin: 0 10vw 2vh 10vw;
+        margin: 0vw 10vw 2vh 10vw;
         letter-spacing: .1px;
+        padding-bottom: 3vh;
     }
 
     section#three p.desc {
@@ -1303,6 +1318,7 @@ button.shadow-outline {
         margin: 0vw 2vw 0vw 2vw;
         letter-spacing: .1px;
         display: block;
+        padding-bottom: 1vh;
     }
 
     section#seven p {
