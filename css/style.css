@@ -202,8 +202,14 @@ section#first img.mobile_menu {
     padding-right: 3vw;
 }
 
-section#first h1.title {
+section#first h1.main {
     padding: 0vh 0vh 2vh;
+    color: #fff;
+    font-weight: 200;
+}
+
+section#first h1.title {
+    padding: 15vh 0vh 2vh;
     color: #fff;
     font-weight: 200;
 }
