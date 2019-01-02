@@ -1242,7 +1242,7 @@ button.shadow-outline {
     }
 
     section#first .buttonWrap {
-        padding: 0vh 0vh;
+        padding: 0vh 0vh 2vh;
     }
 
     button {
