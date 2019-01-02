@@ -1427,7 +1427,8 @@ button.shadow-outline {
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
     section#first img.main_logo {
-        margin: 20px;
+        margin: 14vh 0vh 6vh;
+        max-width: 10vw;
     }
 }
 #loader-wrapper {
