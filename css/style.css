@@ -1226,6 +1226,7 @@ button.shadow-outline {
     }
 
     section#three .row h1.titlethick {
+    text-align: center;
     font-weight: 400;
     color: #3cb054;
     }
