@@ -191,7 +191,7 @@ section#first {
 }
 
 section#first img.main_logo {
-    margin: 30px;
+    margin: 14vh 0vh 6vh;
     width: 20vw;
 }
 
@@ -592,6 +592,7 @@ section#three .row h1.title {
 }
 
 section#three .row h1.titlethick {
+    text-align: center;
     font-weight: 400;
     color: #3cb054;
 }
@@ -1227,6 +1228,8 @@ button.shadow-outline {
     font-weight: 400;
     color: #3cb054;
     }
+
+
 
     section#first {
         padding-bottom: 0px;
