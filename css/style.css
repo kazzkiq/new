@@ -578,6 +578,20 @@ section#three {
     padding: 20px 0px;
 }
 
+section#three h3 {
+    font-weight: 300;
+    color: #3cb054;
+}
+
+section#three h5 {
+    font-weight: 300;
+    color: #3cb054;
+}
+
+section#three li {
+    font-weight: 300;
+}
+
 section#three .row {
     margin: 25px 0px;
     margin-bottom: 30px;
@@ -1266,6 +1280,7 @@ button.shadow-outline {
         width: 80%;
         margin: 0 10% 2% 10%;
         letter-spacing: .1px;
+        padding-bottom: 2vh;
     }
 
     section#first .buttonWrap {
