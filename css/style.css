@@ -227,6 +227,10 @@ section#first .buttonWrap {
         padding: 0vh 0vh 2vh;
     }
 
+section#three .buttonWrap {
+        padding: 0vh 0vh 2vh;
+    }
+
 section#first header nav.mobile-only {
     position: fixed;
     overflow-y: scroll;
@@ -933,7 +937,7 @@ section#seven .wallet-icon {
     margin-bottom: 6px;
 }
 section#seven .exchange-icon {
-    max-width: 5vw;
+    max-width: fit-content;
     max-height: 5vh;
     margin-bottom: 1vw;
 }
@@ -1251,7 +1255,7 @@ button.shadow-outline {
     }
 
     section#first p.desc {
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: 350;
         width: 80%;
         margin: 0 10% 2% 10%;
@@ -1262,8 +1266,14 @@ button.shadow-outline {
         padding: 0vh 0vh 2vh;
     }
 
-    button {
+    section#first button {
         width: 200px;
+        height: 50px;
+        margin: 5px;
+    }
+
+    button {
+        width: -webkit-fill-available;
         height: 50px;
         margin: 5px;
     }
@@ -1384,7 +1394,7 @@ button.shadow-outline {
     }
 
     footer .container.postfooter .row .col-12 span {
-        font-size: 0.7em;
+        font-size: .8em;
     }
 
     footer .container.postfooter .row .col-12 span.right {
