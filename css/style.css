@@ -1256,6 +1256,11 @@ button.shadow-outline {
         color: #fff;
     }
 
+    button.shadow {
+        box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
+        color: #3cb054;
+    }
+
     section#two {
         padding: 0vh 0px;
         background: none;
