@@ -1286,7 +1286,11 @@ button.shadow-outline {
     }
 
     section#first h1.title {
+<<<<<<< HEAD
         font-size: 2.5em;
+=======
+        font-size: 1.4em;
+>>>>>>> master
         font-weight: 200;
         margin: 0 10vw 2vh 10vw
     }
